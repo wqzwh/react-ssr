@@ -63,11 +63,13 @@ class ContentList extends Component {
   }
 }
 
+const mapStateToProps = state => ({
+  list: state.globalData.list
+})
+
 ContentList.propTypes = {
   dispatch: PropTypes.func,
   list: PropTypes.array
 }
 
-export default connect(state => ({
-  list: state.globalData.list
-}))(ContentList)
+export default connect(mapStateToProps)(ContentList)

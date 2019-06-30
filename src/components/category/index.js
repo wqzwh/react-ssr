@@ -22,10 +22,10 @@ class Category extends Component {
 
     return _items.splice(0, 8).map((item, index) => {
       return (
-        <Link key={index} to='/category'>
-          <div className='category-item'>
-            <img className='item-icon' src={item.url} />
-            <p className='item-name'>{item.name}</p>
+        <Link key={index} to="/category">
+          <div className="category-item">
+            <img className="item-icon" src={item.url} />
+            <p className="item-name">{item.name}</p>
           </div>
         </Link>
       )
@@ -33,15 +33,17 @@ class Category extends Component {
   }
 
   render() {
-    return <div className='category-content clearfix'>{this.renderItems()}</div>
+    return <div className="category-content clearfix">{this.renderItems()}</div>
   }
 }
+
+const mapStateToProps = state => ({
+  items: state.home.items
+})
 
 Category.propTypes = {
   dispatch: PropTypes.func,
   items: PropTypes.array
 }
 
-export default connect(state => ({
-  items: state.home.items
-}))(Category)
+export default connect(mapStateToProps)(Category)

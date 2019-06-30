@@ -39,15 +39,15 @@ class BottomBar extends Component {
   }
 }
 
+const mapStateToProps = state => ({
+  tabs: state.home.tabs,
+  activeKey: state.home.activeKey
+})
+
 BottomBar.propTypes = {
   dispatch: PropTypes.func,
   history: PropTypes.object,
   tabs: PropTypes.array
 }
 
-export default withRouter(
-  connect(state => ({
-    tabs: state.home.tabs,
-    activeKey: state.home.activeKey
-  }))(BottomBar)
-)
+export default withRouter(connect(mapStateToProps)(BottomBar))

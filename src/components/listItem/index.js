@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import StarScore from '../../components/starScore/'
 import './index.scss'
@@ -102,4 +101,4 @@ ListItem.propTypes = {
   itemData: PropTypes.object
 }
 
-export default connect()(ListItem)
+export default ListItem
