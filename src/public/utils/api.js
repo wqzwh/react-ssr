@@ -64,8 +64,6 @@ function ajax(url, type, options, config = {}) {
       method: type,
       url: isMock(config.MOCK) ? C.MOCK_HOST + url : C.HOST + url,
       timeout: 3000,
-      // responseType:'stream',
-      // params: options
       params: type === 'get' ? options : null,
       data: configData(type, options)
     })
@@ -95,9 +93,8 @@ function ajax(url, type, options, config = {}) {
       .catch(function(error) {
         // const status = error.response.status
         if (status === 404) {
-          // location.href = './static/html/404.html'
         } else if (status === 500) {
-          // location.href = './static/html/500.html'
+        } else {
         }
         reject({
           error: true,
@@ -150,21 +147,6 @@ const config = {
   delete(url, options, config) {
     return new Promise((resolve, reject) => {
       ajax(url, 'delete', options, config).then(
-        data => {
-          resolve(data)
-        },
-        error => {
-          reject(error)
-        }
-      )
-    })
-  },
-
-  getOtherHost(url, options) {
-    return new Promise((resolve, reject) => {
-      ajax(url, 'get', options, {
-        otherHost: C.OTHER_HOST
-      }).then(
         data => {
           resolve(data)
         },

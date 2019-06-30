@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import './index.scss'
+import classnames from 'classnames'
+import InjectionStyle from '../../components-hoc/injectionStyle'
+import styles from './index.scss'
 
 const StarScore = props => {
   function renderScore() {
@@ -23,31 +25,46 @@ const StarScore = props => {
 
     // 渲染满星dom
     for (let i = 0; i < fullstar; i++) {
-      starDom.push(<div key={i + 'full'} className="star fullstar" />)
+      starDom.push(
+        <div
+          key={i + 'full'}
+          className={classnames(styles['star'], styles['fullstar'])}
+        />
+      )
     }
 
     // 渲染满星dom
     if (halfstar) {
       for (let j = 0; j < halfstar; j++) {
-        starDom.push(<div key={j + 'half'} className="star halfstar" />)
+        starDom.push(
+          <div
+            key={j + 'half'}
+            className={classnames(styles['star'], styles['halfstar'])}
+          />
+        )
       }
     }
 
     // 渲染0星dom
     if (nullstar) {
       for (let k = 0; k < nullstar; k++) {
-        starDom.push(<div key={k + 'null'} className="star nullstar" />)
+        starDom.push(
+          <div
+            key={k + 'null'}
+            className={classnames(styles['star'], styles['nullstar'])}
+          />
+        )
       }
     }
 
     return starDom
   }
 
-  return <div className="star-score">{renderScore()}</div>
+  return <div className={styles['star-score']}>{renderScore()}</div>
 }
 
 StarScore.propTypes = {
   score: PropTypes.number
 }
 
-export default StarScore
+export default InjectionStyle(StarScore, styles)

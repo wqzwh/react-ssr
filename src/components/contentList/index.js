@@ -2,60 +2,38 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
 import ListItem from '../../components/listItem/'
-import './index.scss'
+import InjectionStyle from '../../components-hoc/injectionStyle'
+import styles from './index.scss'
 
 class ContentList extends Component {
   constructor(props) {
     super(props)
-
-    // 记录当前页码
-    this.page = 0
-
-    // 请求第一屏数据
-    this.fetchData(this.page)
-
-    // 标识页面是否可以滚动
-    this.state = {
-      isend: false
-    }
+    this.state = {}
   }
 
-  onLoadPage() {
-    this.page++
-    // 最多滚动3页3次
-    if (this.page > 3) {
-      this.setState({
-        isend: true
-      })
-    } else {
-      this.fetchData(this.page)
-    }
-  }
-
-  fetchData(page) {
-    const { dispatch } = this.props
-    const params = {
-      page
-    }
-    dispatch({ type: 'GLOBAL_LIST_SAGA', params })
+  componentDidMount() {
+    const { list, dispatchGetListData } = this.props
+    if (list.length) return
+    dispatchGetListData()
   }
 
   renderItems() {
-    const { list } = this.props
+    const { list, staticContext } = this.props
     if (!list.length) return ''
     return list.map((item, index) => {
-      return <ListItem key={index} itemData={item} />
+      return (
+        <ListItem staticContext={staticContext} key={index} itemData={item} />
+      )
     })
   }
 
   render() {
-    const { isend } = this.state
     return (
-      <div className="list-content">
-        <h4 className="list-title">
-          <span className="title-line" />
+      <div className={styles['list-content']}>
+        <h4 className={styles['list-title']}>
+          <span className={styles['title-line']} />
           <span>附近商家</span>
-          <span className="title-line" />
+          <span className={styles['title-line']} />
         </h4>
         {this.renderItems()}
       </div>
@@ -63,13 +41,24 @@ class ContentList extends Component {
   }
 }
 
+const mapDispatchToProps = dispatch => ({
+  dispatchGetListData() {
+    dispatch({ type: 'HOME_LIST_SAGA' })
+  }
+})
+
 const mapStateToProps = state => ({
-  list: state.globalData.list
+  list: state.home.list
 })
 
 ContentList.propTypes = {
   dispatch: PropTypes.func,
-  list: PropTypes.array
+  getList: PropTypes.func,
+  list: PropTypes.array,
+  staticContext: PropTypes.any
 }
 
-export default connect(mapStateToProps)(ContentList)
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(InjectionStyle(ContentList, styles))

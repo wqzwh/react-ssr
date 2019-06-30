@@ -1,18 +1,25 @@
-import React from 'react'
-import './index.scss'
+import React, { Component } from 'react'
+import InjectionStyle from '../../components-hoc/injectionStyle'
+import styles from './index.scss'
 
-const SearchBar = () => {
-  return (
-    <div className="search-bar">
-      <div className="bar-location">
-        <div className="location-icon" />
-        <div className="location-text">北京市</div>
+class SearchBar extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+  render() {
+    return (
+      <div className={styles['search-bar']}>
+        <div className={styles['bar-location']}>
+          <div className={styles['location-icon']} />
+          <div className={styles['location-text']}>北京市</div>
+        </div>
+        <div className={styles['search-btn']}>
+          <p className={styles['place-holder']}>烤鱼</p>
+        </div>
       </div>
-      <div className="search-btn">
-        <p className="place-holder">烤鱼</p>
-      </div>
-    </div>
-  )
+    )
+  }
 }
 
-export default SearchBar
+export default InjectionStyle(SearchBar, styles)

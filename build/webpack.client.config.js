@@ -1,5 +1,6 @@
 const path = require('path')
 const merge = require('webpack-merge')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const baseConfig = require('./webpack.base.config')
 const config = require('../config')
 
@@ -19,23 +20,7 @@ const clientConfig = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
-        loader: 'url-loader',
-        options: {
-          limit: 10000,
-          name: path.posix.join('static', 'img/[name].[hash:7].[ext]')
-        }
-      },
-      {
-        test: /\.(woff2?|eot|ttf|otf|ttc)(\?.*)?$/,
-        loader: 'url-loader',
-        options: {
-          limit: 800000,
-          name: path.posix.join('static', 'img/[name].[hash:7].[ext]')
-        }
-      },
-      {
-        test: /\.scss?$/,
+        test: /\.(css|scss)?$/,
         use: [
           'style-loader',
           {
@@ -43,7 +28,7 @@ const clientConfig = {
             options: {
               importLoaders: 1,
               modules: true,
-              localIdentName: '[name]-[local]-[hash:base64:5]'
+              localIdentName: '[local]'
             }
           },
           'sass-loader',
@@ -57,7 +42,16 @@ const clientConfig = {
         include: resolve('src')
       }
     ]
-  }
+  },
+  plugins: [
+    new CopyWebpackPlugin([
+      {
+        from: resolve('src/static'),
+        to: config.build.assetsSubDirectory,
+        ignore: ['.*']
+      }
+    ])
+  ]
 }
 
 module.exports = merge(baseConfig, clientConfig)

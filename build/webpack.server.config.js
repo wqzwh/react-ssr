@@ -20,7 +20,7 @@ const serverConfig = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.(css|scss)$/,
         use: [
           'isomorphic-style-loader',
           {
@@ -28,7 +28,7 @@ const serverConfig = {
             options: {
               importLoaders: 1,
               modules: true,
-              localIdentName: '[name]-[local]-[hash:base64:5]'
+              localIdentName: '[local]'
             }
           },
           'sass-loader',

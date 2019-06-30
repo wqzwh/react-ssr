@@ -1,7 +1,7 @@
 import actionTypes from '../actionTypes'
 import { createReducer } from '../lib'
 
-const { CHANGE_TAB, SET_CATEGORY } = actionTypes
+const { CHANGE_TAB, SET_CATEGORY, SET_LIST } = actionTypes
 const initialState = {
   tabs: [
     {
@@ -17,9 +17,9 @@ const initialState = {
       key: 'my'
     }
   ],
-  activeKey: 'my',
+  activeKey: 'home',
   items: [],
-  readyToLoad: true
+  list: []
 }
 
 const reducer = createReducer(initialState, {
@@ -28,6 +28,9 @@ const reducer = createReducer(initialState, {
   },
   [SET_CATEGORY]: (state, { items }) => {
     return { ...state, items }
+  },
+  [SET_LIST]: (state, { list }) => {
+    return { ...state, list }
   }
 })
 
