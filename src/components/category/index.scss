@@ -1,0 +1,22 @@
+.category-content {
+    padding-bottom: px2rem(10px);
+
+    .category-item {
+        float: left;
+        width: 25%;
+        padding-top: px2rem(14px);
+        font-size: px2rem(13px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-icon {
+        width: px2rem(47px);
+    }
+
+    .item-name {
+        margin-top: px2rem(14px);
+        color: #151515;
+    }
+}

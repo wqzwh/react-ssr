@@ -1,0 +1,48 @@
+const path = require('path')
+const nodeExternals = require('webpack-node-externals')
+const merge = require('webpack-merge')
+const baseConfig = require('./webpack.base.config')
+const config = require('../config')
+
+const resolve = dir => {
+  return path.join(__dirname, '..', dir)
+}
+
+const serverConfig = {
+  mode: 'development',
+  target: 'node',
+  entry: `${resolve('src/entry-server')}/index.js`,
+  output: {
+    filename: 'server-bundle.js',
+    path: resolve('build-server')
+  },
+  externals: [nodeExternals()],
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [
+          'isomorphic-style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: true,
+              localIdentName: '[name]-[local]-[hash:base64:5]'
+            }
+          },
+          'sass-loader',
+          {
+            loader: 'sass-resources-loader',
+            options: {
+              resources: resolve('src') + '/assets/css/rem_function.scss'
+            }
+          }
+        ],
+        include: resolve('src')
+      }
+    ]
+  }
+}
+
+module.exports = merge(baseConfig, serverConfig)
