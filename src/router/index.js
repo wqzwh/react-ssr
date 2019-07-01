@@ -1,6 +1,6 @@
 import App from '../App'
 import Home from '../views/home'
-import NotFound from '../components/notFound'
+import NotFound from '../views/notFound'
 
 export default [
   {
