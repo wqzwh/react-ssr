@@ -10015,6 +10015,24 @@ exports.locals = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/notFound/index.scss":
+/*!**************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js??ref--7-3!./src/components/notFound/index.scss ***!
+  \**************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, ".not-found {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100vh; }\n", ""]);
+
+// Exports
+exports.locals = {
+	"not-found": "not-found"
+};
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/searchBar/index.scss":
 /*!***************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js??ref--7-3!./src/components/searchBar/index.scss ***!
@@ -18510,7 +18528,7 @@ function renderRoutes(routes, extraProps, switchProps) {
 /*!***************************************************************!*\
   !*** ./node_modules/react-router-dom/esm/react-router-dom.js ***!
   \***************************************************************/
-/*! exports provided: BrowserRouter, HashRouter, Link, NavLink, MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext */
+/*! exports provided: MemoryRouter, Prompt, Redirect, Route, Router, StaticRouter, Switch, generatePath, matchPath, withRouter, __RouterContext, BrowserRouter, HashRouter, Link, NavLink */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -22429,7 +22447,7 @@ if (false) {} else {
 /*!***********************************************************************!*\
   !*** ./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js ***!
   \***********************************************************************/
-/*! exports provided: default, CANCEL, SAGA_LOCATION, buffers, detach, runSaga, END, isEnd, eventChannel, channel, multicastChannel, stdChannel */
+/*! exports provided: CANCEL, SAGA_LOCATION, buffers, detach, runSaga, END, isEnd, eventChannel, channel, multicastChannel, stdChannel, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -26936,6 +26954,67 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./src/components/notFound/index.js":
+/*!******************************************!*\
+  !*** ./src/components/notFound/index.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_bottomBar___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/bottomBar/ */ "./src/components/bottomBar/index.js");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./index.scss */ "./src/components/notFound/index.scss");
+/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+var NotFound = function NotFound(props) {
+  var staticContext = props.staticContext;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "not-found"
+  }, "404\u9875\u9762"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_bottomBar___WEBPACK_IMPORTED_MODULE_1__["default"], {
+    staticContext: staticContext
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (NotFound);
+
+/***/ }),
+
+/***/ "./src/components/notFound/index.scss":
+/*!********************************************!*\
+  !*** ./src/components/notFound/index.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--7-1!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/sass-resources-loader/lib/loader.js??ref--7-3!./index.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/notFound/index.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./src/components/searchBar/img/arrowIcon.png":
 /*!****************************************************!*\
   !*** ./src/components/searchBar/img/arrowIcon.png ***!
@@ -27489,6 +27568,8 @@ var config = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../App */ "./src/App.js");
 /* harmony import */ var _views_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../views/home */ "./src/views/home/index.js");
+/* harmony import */ var _components_notFound__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/notFound */ "./src/components/notFound/index.js");
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ([{
@@ -27501,6 +27582,9 @@ __webpack_require__.r(__webpack_exports__);
     exact: true,
     loadData: _views_home__WEBPACK_IMPORTED_MODULE_1__["default"].loadData,
     key: 'home'
+  }, {
+    component: _components_notFound__WEBPACK_IMPORTED_MODULE_2__["default"],
+    key: 'notFound'
   }]
 }]);
 
@@ -28007,8 +28091,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
 /* harmony import */ var redux_saga__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! redux-saga */ "./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js");
-/* harmony import */ var _rootSagas__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./rootSagas */ "./src/store/rootSagas.js");
-/* harmony import */ var _rootReducers__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./rootReducers */ "./src/store/rootReducers.js");
+/* harmony import */ var _rootReducers__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./rootReducers */ "./src/store/rootReducers.js");
 
 
 
@@ -28024,16 +28107,15 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-
 var sagaMiddleware = Object(redux_saga__WEBPACK_IMPORTED_MODULE_8__["default"])();
 var configureClientStore = function configureClientStore() {
   var defaultState = window.context.state;
-  return _objectSpread({}, Object(redux__WEBPACK_IMPORTED_MODULE_7__["createStore"])(_rootReducers__WEBPACK_IMPORTED_MODULE_10__["default"], defaultState, Object(redux__WEBPACK_IMPORTED_MODULE_7__["applyMiddleware"])(sagaMiddleware)), {
+  return _objectSpread({}, Object(redux__WEBPACK_IMPORTED_MODULE_7__["createStore"])(_rootReducers__WEBPACK_IMPORTED_MODULE_9__["default"], defaultState, Object(redux__WEBPACK_IMPORTED_MODULE_7__["applyMiddleware"])(sagaMiddleware)), {
     runSaga: sagaMiddleware.run
   });
 };
 var configureStore = function configureStore() {
-  return _objectSpread({}, Object(redux__WEBPACK_IMPORTED_MODULE_7__["createStore"])(_rootReducers__WEBPACK_IMPORTED_MODULE_10__["default"], Object(redux__WEBPACK_IMPORTED_MODULE_7__["applyMiddleware"])(sagaMiddleware)), {
+  return _objectSpread({}, Object(redux__WEBPACK_IMPORTED_MODULE_7__["createStore"])(_rootReducers__WEBPACK_IMPORTED_MODULE_9__["default"], Object(redux__WEBPACK_IMPORTED_MODULE_7__["applyMiddleware"])(sagaMiddleware)), {
     runSaga: sagaMiddleware.run
   });
 };

@@ -1,5 +1,6 @@
 import App from '../App'
 import Home from '../views/home'
+import NotFound from '../components/notFound'
 
 export default [
   {
@@ -13,6 +14,10 @@ export default [
         exact: true,
         loadData: Home.loadData,
         key: 'home'
+      },
+      {
+        component: NotFound,
+        key: 'notFound'
       }
     ]
   }
