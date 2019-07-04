@@ -4,42 +4,6 @@ import C from '../conf'
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8'
 axios.defaults.withCredentials = true
 
-// 代码来自 https://github.com/axios/axios/issues/164#issuecomment-327837467
-// 访问超时后再次发起请求设置
-// 设置全局的请求次数，请求的间隙
-axios.defaults.retry = 0
-axios.defaults.retryDelay = 2000
-
-axios.interceptors.response.use(undefined, err => {
-  var config = err.config
-  // If config does not exist or the retry option is not set, reject
-  if (!config || !config.retry) return Promise.reject(err)
-
-  // Set the variable for keeping track of the retry count
-  config.__retryCount = config.__retryCount || 0
-
-  // Check if we've maxed out the total number of retries
-  if (config.__retryCount >= config.retry) {
-    // Reject with the error
-    return Promise.reject(err)
-  }
-
-  // Increase the retry count
-  config.__retryCount += 1
-
-  // Create new promise to handle exponential backoff
-  var backoff = new Promise(resolve => {
-    setTimeout(() => {
-      resolve()
-    }, config.retryDelay || 1000)
-  })
-
-  // Return the promise in which recalls axios to retry the request
-  return backoff.then(() => {
-    return axios(config)
-  })
-})
-
 const configData = (type, params) => {
   // POST传参序列化
   if (type === 'post') {
@@ -53,19 +17,33 @@ const configData = (type, params) => {
 }
 
 function isMock(mock) {
-  if (process.env.NODE_ENV === 'dist') return false
+  if (process.env.NODE_ENV === 'production') return false
   if (mock) return true
   return false
 }
 
 function ajax(url, type, options, config = {}) {
+  const { serverConfig } = config
+  let createInstance = ''
+  if (serverConfig.serverLoad) {
+    createInstance = axios.create({
+      baseURL: isMock(config.MOCK) ? C.MOCK_HOST + url : C.HOST + url,
+      headers: {
+        // 服务端转发设置cookies
+        cookie: `ck=${serverConfig.req.cookies}`
+      }
+    })
+  } else {
+    createInstance = axios.create({
+      baseURL: isMock(config.MOCK) ? C.MOCK_HOST + url : '' + url
+    })
+  }
   return new Promise((resolve, reject) => {
-    axios({
+    createInstance({
       method: type,
-      url: isMock(config.MOCK) ? C.MOCK_HOST + url : C.HOST + url,
-      timeout: 3000,
       params: type === 'get' ? options : null,
-      data: configData(type, options)
+      data: configData(type, options),
+      timeout: 3000
     })
       .then(
         result => {

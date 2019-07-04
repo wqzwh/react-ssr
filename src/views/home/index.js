@@ -41,8 +41,11 @@ const ExportHome = connect(
   mapDispatchToProps
 )(Home)
 
-ExportHome.loadData = () => {
-  return getInitData()
+ExportHome.loadData = serverConfig => {
+  const params = {
+    page: 1
+  }
+  return getInitData(serverConfig, params)
 }
 
 export default ExportHome

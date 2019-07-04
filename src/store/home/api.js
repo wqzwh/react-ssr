@@ -2,7 +2,9 @@ import API from '../../public/utils/api'
 
 export default {
   // 获取类目信息
-  getCategory: (params = {}) => API.get(`/api/head`, params, { MOCK: true }),
+  getCategory: (serverConfig, params = {}) =>
+    API.get(`/api/head`, params, { serverConfig, MOCK: true }),
   // 获取第一屏幕数据
-  getList: (params = {}) => API.get(`/api/homelist`, params, { MOCK: true })
+  getList: (serverConfig, params = {}) =>
+    API.get(`/api/homelist`, params, { serverConfig, MOCK: true })
 }

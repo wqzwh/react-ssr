@@ -27363,37 +27363,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 axios__WEBPACK_IMPORTED_MODULE_2___default.a.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8';
-axios__WEBPACK_IMPORTED_MODULE_2___default.a.defaults.withCredentials = true; // 代码来自 https://github.com/axios/axios/issues/164#issuecomment-327837467
-// 访问超时后再次发起请求设置
-// 设置全局的请求次数，请求的间隙
-
-axios__WEBPACK_IMPORTED_MODULE_2___default.a.defaults.retry = 0;
-axios__WEBPACK_IMPORTED_MODULE_2___default.a.defaults.retryDelay = 2000;
-axios__WEBPACK_IMPORTED_MODULE_2___default.a.interceptors.response.use(undefined, function (err) {
-  var config = err.config; // If config does not exist or the retry option is not set, reject
-
-  if (!config || !config.retry) return Promise.reject(err); // Set the variable for keeping track of the retry count
-
-  config.__retryCount = config.__retryCount || 0; // Check if we've maxed out the total number of retries
-
-  if (config.__retryCount >= config.retry) {
-    // Reject with the error
-    return Promise.reject(err);
-  } // Increase the retry count
-
-
-  config.__retryCount += 1; // Create new promise to handle exponential backoff
-
-  var backoff = new Promise(function (resolve) {
-    setTimeout(function () {
-      resolve();
-    }, config.retryDelay || 1000);
-  }); // Return the promise in which recalls axios to retry the request
-
-  return backoff.then(function () {
-    return axios__WEBPACK_IMPORTED_MODULE_2___default()(config);
-  });
-});
+axios__WEBPACK_IMPORTED_MODULE_2___default.a.defaults.withCredentials = true;
 
 var configData = function configData(type, params) {
   // POST传参序列化
@@ -27416,13 +27386,29 @@ function isMock(mock) {
 
 function ajax(url, type, options) {
   var config = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
+  var serverConfig = config.serverConfig;
+  var createInstance = '';
+
+  if (serverConfig.serverLoad) {
+    createInstance = axios__WEBPACK_IMPORTED_MODULE_2___default.a.create({
+      baseURL: isMock(config.MOCK) ? _conf__WEBPACK_IMPORTED_MODULE_3__["default"].MOCK_HOST + url : _conf__WEBPACK_IMPORTED_MODULE_3__["default"].HOST + url,
+      headers: {
+        // 服务端转发设置cookies
+        cookie: "ck=".concat(serverConfig.req.cookies)
+      }
+    });
+  } else {
+    createInstance = axios__WEBPACK_IMPORTED_MODULE_2___default.a.create({
+      baseURL: isMock(config.MOCK) ? _conf__WEBPACK_IMPORTED_MODULE_3__["default"].MOCK_HOST + url : '' + url
+    });
+  }
+
   return new Promise(function (resolve, reject) {
-    axios__WEBPACK_IMPORTED_MODULE_2___default()({
+    createInstance({
       method: type,
-      url: isMock(config.MOCK) ? _conf__WEBPACK_IMPORTED_MODULE_3__["default"].MOCK_HOST + url : _conf__WEBPACK_IMPORTED_MODULE_3__["default"].HOST + url,
-      timeout: 3000,
       params: type === 'get' ? options : null,
-      data: configData(type, options)
+      data: configData(type, options),
+      timeout: 3000
     }).then(function (result) {
       if (result && result.status === 200) {
         if (result.data.code === 0) {
@@ -27761,16 +27747,18 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   // 获取类目信息
-  getCategory: function getCategory() {
-    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  getCategory: function getCategory(serverConfig) {
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     return _public_utils_api__WEBPACK_IMPORTED_MODULE_0__["default"].get("/api/head", params, {
+      serverConfig: serverConfig,
       MOCK: true
     });
   },
   // 获取第一屏幕数据
-  getList: function getList() {
-    var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  getList: function getList(serverConfig) {
+    var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     return _public_utils_api__WEBPACK_IMPORTED_MODULE_0__["default"].get("/api/homelist", params, {
+      serverConfig: serverConfig,
       MOCK: true
     });
   }
@@ -27896,18 +27884,23 @@ var SET_CATEGORY = _actionTypes__WEBPACK_IMPORTED_MODULE_2__["default"].SET_CATE
     SET_LIST = _actionTypes__WEBPACK_IMPORTED_MODULE_2__["default"].SET_LIST; // 初始化页面所有数据方法
 
 function getInitData() {
+  var serverConfig,
+      params,
+      _args = arguments;
   return regeneratorRuntime.wrap(function getInitData$(_context) {
     while (1) {
       switch (_context.prev = _context.next) {
         case 0:
-          _context.next = 2;
-          return getCategory();
-
-        case 2:
+          serverConfig = _args.length > 0 && _args[0] !== undefined ? _args[0] : {};
+          params = _args.length > 1 && _args[1] !== undefined ? _args[1] : {};
           _context.next = 4;
-          return getList();
+          return getCategory(serverConfig, params);
 
         case 4:
+          _context.next = 6;
+          return getList(serverConfig, params);
+
+        case 6:
         case "end":
           return _context.stop();
       }
@@ -27915,29 +27908,34 @@ function getInitData() {
   }, _marked);
 }
 function getList() {
-  var res;
+  var serverConfig,
+      params,
+      res,
+      _args2 = arguments;
   return regeneratorRuntime.wrap(function getList$(_context2) {
     while (1) {
       switch (_context2.prev = _context2.next) {
         case 0:
-          _context2.next = 2;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["call"])(_api__WEBPACK_IMPORTED_MODULE_3__["default"].getList);
+          serverConfig = _args2.length > 0 && _args2[0] !== undefined ? _args2[0] : {};
+          params = _args2.length > 1 && _args2[1] !== undefined ? _args2[1] : {};
+          _context2.next = 4;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["call"])(_api__WEBPACK_IMPORTED_MODULE_3__["default"].getList, serverConfig, params);
 
-        case 2:
+        case 4:
           res = _context2.sent;
 
           if (!res) {
-            _context2.next = 6;
+            _context2.next = 8;
             break;
           }
 
-          _context2.next = 6;
+          _context2.next = 8;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])({
             type: SET_LIST,
             list: res.data.poilist
           });
 
-        case 6:
+        case 8:
         case "end":
           return _context2.stop();
       }
@@ -27945,29 +27943,34 @@ function getList() {
   }, _marked2);
 }
 function getCategory() {
-  var res;
+  var serverConfig,
+      params,
+      res,
+      _args3 = arguments;
   return regeneratorRuntime.wrap(function getCategory$(_context3) {
     while (1) {
       switch (_context3.prev = _context3.next) {
         case 0:
-          _context3.next = 2;
-          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["call"])(_api__WEBPACK_IMPORTED_MODULE_3__["default"].getCategory);
+          serverConfig = _args3.length > 0 && _args3[0] !== undefined ? _args3[0] : {};
+          params = _args3.length > 1 && _args3[1] !== undefined ? _args3[1] : {};
+          _context3.next = 4;
+          return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["call"])(_api__WEBPACK_IMPORTED_MODULE_3__["default"].getCategory, serverConfig, params);
 
-        case 2:
+        case 4:
           res = _context3.sent;
 
           if (!res) {
-            _context3.next = 6;
+            _context3.next = 8;
             break;
           }
 
-          _context3.next = 6;
+          _context3.next = 8;
           return Object(redux_saga_effects__WEBPACK_IMPORTED_MODULE_1__["put"])({
             type: SET_CATEGORY,
             items: res.data.primary_filter
           });
 
-        case 6:
+        case 8:
         case "end":
           return _context3.stop();
       }
@@ -28419,8 +28422,11 @@ Home.propTypes = {
 };
 var ExportHome = Object(react_redux__WEBPACK_IMPORTED_MODULE_10__["connect"])(null, mapDispatchToProps)(Home);
 
-ExportHome.loadData = function () {
-  return Object(_store_home_sagas__WEBPACK_IMPORTED_MODULE_16__["getInitData"])();
+ExportHome.loadData = function (serverConfig) {
+  var params = {
+    page: 1
+  };
+  return Object(_store_home_sagas__WEBPACK_IMPORTED_MODULE_16__["getInitData"])(serverConfig, params);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ExportHome);

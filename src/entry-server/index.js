@@ -15,7 +15,7 @@ app.use(
   '/api',
   proxy(`${C.MOCK_HOST}`, {
     proxyReqPathResolver: req => {
-      return req.url
+      return `/api/` + req.url
     }
   })
 )
@@ -30,7 +30,7 @@ app.get('*', (req, res) => {
   const matchedRoutesSagas = []
   matchedRoutes.forEach(item => {
     if (item.route.loadData) {
-      matchedRoutesSagas.push(item.route.loadData())
+      matchedRoutesSagas.push(item.route.loadData({ serverLoad: true, req }))
     }
   })
 

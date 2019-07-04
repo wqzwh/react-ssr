@@ -5,20 +5,20 @@ import API from './api'
 const { SET_CATEGORY, SET_LIST } = actionTypes
 
 // 初始化页面所有数据方法
-export function* getInitData() {
-  yield getCategory()
-  yield getList()
+export function* getInitData(serverConfig = {}, params = {}) {
+  yield getCategory(serverConfig, params)
+  yield getList(serverConfig, params)
 }
 
-export function* getList() {
-  const res = yield call(API.getList)
+export function* getList(serverConfig = {}, params = {}) {
+  const res = yield call(API.getList, serverConfig, params)
   if (res) {
     yield put({ type: SET_LIST, list: res.data.poilist })
   }
 }
 
-export function* getCategory() {
-  const res = yield call(API.getCategory)
+export function* getCategory(serverConfig = {}, params = {}) {
+  const res = yield call(API.getCategory, serverConfig, params)
   if (res) {
     yield put({ type: SET_CATEGORY, items: res.data.primary_filter })
   }
