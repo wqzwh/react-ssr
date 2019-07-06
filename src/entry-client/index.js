@@ -3,6 +3,7 @@ import ReactDom from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import { renderRoutes } from 'react-router-config'
+import Loadable from 'react-loadable'
 import { configureClientStore } from '../store/index'
 import routes from '../router'
 import rootSaga from '../store/rootSagas'
@@ -10,7 +11,7 @@ import rootSaga from '../store/rootSagas'
 const store = configureClientStore()
 store.runSaga(rootSaga)
 
-const APP = () => {
+const App = () => {
   return (
     <Provider store={store}>
       <BrowserRouter>
@@ -19,5 +20,7 @@ const APP = () => {
     </Provider>
   )
 }
-
-ReactDom.hydrate(<APP />, document.getElementById('root'))
+Loadable.preloadReady().then(() => {
+  ReactDom.hydrate(<App />, document.getElementById('root'))
+})
+// ReactDom.hydrate(<App />, document.getElementById('root'))

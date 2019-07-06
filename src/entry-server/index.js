@@ -1,9 +1,9 @@
 import express from 'express'
 import proxy from 'express-http-proxy'
 import { matchRoutes } from 'react-router-config'
-import { configureStore } from '../store/'
 import { all } from 'redux-saga/effects'
 import { renderContent } from './renderContent'
+import { configureStore } from '../store/'
 import routes from '../router'
 import C from '../public/conf'
 

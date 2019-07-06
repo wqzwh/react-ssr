@@ -1,0 +1,4132 @@
+{
+  "../internals/a-possible-prototype": [
+    {
+      "id": "./node_modules/core-js/internals/a-possible-prototype.js",
+      "name": "./node_modules/core-js/internals/a-possible-prototype.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/a-possible-prototype.js",
+      "name": "./node_modules/core-js/internals/a-possible-prototype.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/add-to-unscopables": [
+    {
+      "id": "./node_modules/core-js/internals/add-to-unscopables.js",
+      "name": "./node_modules/core-js/internals/add-to-unscopables.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/add-to-unscopables.js",
+      "name": "./node_modules/core-js/internals/add-to-unscopables.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/correct-prototype-getter": [
+    {
+      "id": "./node_modules/core-js/internals/correct-prototype-getter.js",
+      "name": "./node_modules/core-js/internals/correct-prototype-getter.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/correct-prototype-getter.js",
+      "name": "./node_modules/core-js/internals/correct-prototype-getter.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/create-iterator-constructor": [
+    {
+      "id": "./node_modules/core-js/internals/create-iterator-constructor.js",
+      "name": "./node_modules/core-js/internals/create-iterator-constructor.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/create-iterator-constructor.js",
+      "name": "./node_modules/core-js/internals/create-iterator-constructor.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/define-iterator": [
+    {
+      "id": "./node_modules/core-js/internals/define-iterator.js",
+      "name": "./node_modules/core-js/internals/define-iterator.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/define-iterator.js",
+      "name": "./node_modules/core-js/internals/define-iterator.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/iterators-core": [
+    {
+      "id": "./node_modules/core-js/internals/iterators-core.js",
+      "name": "./node_modules/core-js/internals/iterators-core.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/iterators-core.js",
+      "name": "./node_modules/core-js/internals/iterators-core.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/object-get-prototype-of": [
+    {
+      "id": "./node_modules/core-js/internals/object-get-prototype-of.js",
+      "name": "./node_modules/core-js/internals/object-get-prototype-of.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-get-prototype-of.js",
+      "name": "./node_modules/core-js/internals/object-get-prototype-of.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/object-set-prototype-of": [
+    {
+      "id": "./node_modules/core-js/internals/object-set-prototype-of.js",
+      "name": "./node_modules/core-js/internals/object-set-prototype-of.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-set-prototype-of.js",
+      "name": "./node_modules/core-js/internals/object-set-prototype-of.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "../internals/string-multibyte": [
+    {
+      "id": "./node_modules/core-js/internals/string-multibyte.js",
+      "name": "./node_modules/core-js/internals/string-multibyte.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/string-multibyte.js",
+      "name": "./node_modules/core-js/internals/string-multibyte.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.array.iterator": [
+    {
+      "id": "./node_modules/core-js/modules/es.array.iterator.js",
+      "name": "./node_modules/core-js/modules/es.array.iterator.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.iterator.js",
+      "name": "./node_modules/core-js/modules/es.array.iterator.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.object.get-prototype-of": [
+    {
+      "id": "./node_modules/core-js/modules/es.object.get-prototype-of.js",
+      "name": "./node_modules/core-js/modules/es.object.get-prototype-of.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.object.get-prototype-of.js",
+      "name": "./node_modules/core-js/modules/es.object.get-prototype-of.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.object.set-prototype-of": [
+    {
+      "id": "./node_modules/core-js/modules/es.object.set-prototype-of.js",
+      "name": "./node_modules/core-js/modules/es.object.set-prototype-of.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.object.set-prototype-of.js",
+      "name": "./node_modules/core-js/modules/es.object.set-prototype-of.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.string.iterator": [
+    {
+      "id": "./node_modules/core-js/modules/es.string.iterator.js",
+      "name": "./node_modules/core-js/modules/es.string.iterator.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.string.iterator.js",
+      "name": "./node_modules/core-js/modules/es.string.iterator.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.symbol.description": [
+    {
+      "id": "./node_modules/core-js/modules/es.symbol.description.js",
+      "name": "./node_modules/core-js/modules/es.symbol.description.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.symbol.description.js",
+      "name": "./node_modules/core-js/modules/es.symbol.description.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.symbol.iterator": [
+    {
+      "id": "./node_modules/core-js/modules/es.symbol.iterator.js",
+      "name": "./node_modules/core-js/modules/es.symbol.iterator.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.symbol.iterator.js",
+      "name": "./node_modules/core-js/modules/es.symbol.iterator.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/web.dom-collections.iterator": [
+    {
+      "id": "./node_modules/core-js/modules/web.dom-collections.iterator.js",
+      "name": "./node_modules/core-js/modules/web.dom-collections.iterator.js",
+      "file": "0.client-bundle.js",
+      "publicPath": "0.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/web.dom-collections.iterator.js",
+      "name": "./node_modules/core-js/modules/web.dom-collections.iterator.js",
+      "file": "0.client-bundle.js.map",
+      "publicPath": "0.client-bundle.js.map"
+    }
+  ],
+  "!!../../../node_modules/css-loader/dist/cjs.js??ref--7-1!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/sass-resources-loader/lib/loader.js??ref--7-3!./index.scss": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/bottomBar/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/bottomBar/index.scss",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/bottomBar/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/bottomBar/index.scss",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/category/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/category/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/contentList/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/contentList/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/listItem/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/listItem/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/searchBar/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/searchBar/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/starScore/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/starScore/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/category/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/category/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/contentList/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/contentList/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/listItem/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/listItem/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/searchBar/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/searchBar/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/starScore/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/starScore/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/NotFound/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/NotFound/index.scss",
+      "file": "4.client-bundle.js",
+      "publicPath": "4.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/NotFound/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/NotFound/index.scss",
+      "file": "4.client-bundle.js.map",
+      "publicPath": "4.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/loading/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/loading/index.scss",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/loading/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/components/loading/index.scss",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./components-hoc/injectionStyle": [
+    {
+      "id": "./src/components-hoc/injectionStyle.js",
+      "name": "./src/components-hoc/injectionStyle.js",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components-hoc/injectionStyle.js",
+      "name": "./src/components-hoc/injectionStyle.js",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    },
+    {
+      "id": "./src/components-hoc/injectionStyle.js",
+      "name": "./src/components-hoc/injectionStyle.js",
+      "file": "5.client-bundle.js",
+      "publicPath": "5.client-bundle.js"
+    },
+    {
+      "id": "./src/components-hoc/injectionStyle.js",
+      "name": "./src/components-hoc/injectionStyle.js",
+      "file": "5.client-bundle.js.map",
+      "publicPath": "5.client-bundle.js.map"
+    }
+  ],
+  "./img/homeIcon.png": [
+    {
+      "id": "./src/components/bottomBar/img/homeIcon.png",
+      "name": "./src/components/bottomBar/img/homeIcon.png",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/img/homeIcon.png",
+      "name": "./src/components/bottomBar/img/homeIcon.png",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    }
+  ],
+  "./img/homeIconActive.png": [
+    {
+      "id": "./src/components/bottomBar/img/homeIconActive.png",
+      "name": "./src/components/bottomBar/img/homeIconActive.png",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/img/homeIconActive.png",
+      "name": "./src/components/bottomBar/img/homeIconActive.png",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    }
+  ],
+  "./img/myIcon.png": [
+    {
+      "id": "./src/components/bottomBar/img/myIcon.png",
+      "name": "./src/components/bottomBar/img/myIcon.png",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/img/myIcon.png",
+      "name": "./src/components/bottomBar/img/myIcon.png",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    }
+  ],
+  "./img/myIconActive.png": [
+    {
+      "id": "./src/components/bottomBar/img/myIconActive.png",
+      "name": "./src/components/bottomBar/img/myIconActive.png",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/img/myIconActive.png",
+      "name": "./src/components/bottomBar/img/myIconActive.png",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    }
+  ],
+  "./img/orderIcon.png": [
+    {
+      "id": "./src/components/bottomBar/img/orderIcon.png",
+      "name": "./src/components/bottomBar/img/orderIcon.png",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/img/orderIcon.png",
+      "name": "./src/components/bottomBar/img/orderIcon.png",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    }
+  ],
+  "./img/orderIconActive.png": [
+    {
+      "id": "./src/components/bottomBar/img/orderIconActive.png",
+      "name": "./src/components/bottomBar/img/orderIconActive.png",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/img/orderIconActive.png",
+      "name": "./src/components/bottomBar/img/orderIconActive.png",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    }
+  ],
+  "../../components/bottomBar/": [
+    {
+      "id": "./src/components/bottomBar/index.js",
+      "name": "./src/components/bottomBar/index.js",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/index.js",
+      "name": "./src/components/bottomBar/index.js",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    }
+  ],
+  "./index.scss": [
+    {
+      "id": "./src/components/bottomBar/index.scss",
+      "name": "./src/components/bottomBar/index.scss",
+      "file": "1.client-bundle.js",
+      "publicPath": "1.client-bundle.js"
+    },
+    {
+      "id": "./src/components/bottomBar/index.scss",
+      "name": "./src/components/bottomBar/index.scss",
+      "file": "1.client-bundle.js.map",
+      "publicPath": "1.client-bundle.js.map"
+    },
+    {
+      "id": "./src/components/category/index.scss",
+      "name": "./src/components/category/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/contentList/index.scss",
+      "name": "./src/components/contentList/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/listItem/index.scss",
+      "name": "./src/components/listItem/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/searchBar/index.scss",
+      "name": "./src/components/searchBar/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/starScore/index.scss",
+      "name": "./src/components/starScore/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/views/Home/header/index.scss",
+      "name": "./src/views/Home/header/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/category/index.scss",
+      "name": "./src/components/category/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./src/components/contentList/index.scss",
+      "name": "./src/components/contentList/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./src/components/listItem/index.scss",
+      "name": "./src/components/listItem/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./src/components/searchBar/index.scss",
+      "name": "./src/components/searchBar/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./src/components/starScore/index.scss",
+      "name": "./src/components/starScore/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./src/views/Home/header/index.scss",
+      "name": "./src/views/Home/header/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    },
+    {
+      "id": "./src/views/NotFound/index.scss",
+      "name": "./src/views/NotFound/index.scss",
+      "file": "4.client-bundle.js",
+      "publicPath": "4.client-bundle.js"
+    },
+    {
+      "id": "./src/views/NotFound/index.scss",
+      "name": "./src/views/NotFound/index.scss",
+      "file": "4.client-bundle.js.map",
+      "publicPath": "4.client-bundle.js.map"
+    },
+    {
+      "id": "./src/components/loading/index.scss",
+      "name": "./src/components/loading/index.scss",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/components/loading/index.scss",
+      "name": "./src/components/loading/index.scss",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "!!../../../../node_modules/css-loader/dist/cjs.js??ref--7-1!../../../../node_modules/sass-loader/lib/loader.js!../../../../node_modules/sass-resources-loader/lib/loader.js??ref--7-3!./index.scss": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/Home/header/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/Home/header/index.scss",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/Home/header/index.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/views/Home/header/index.scss",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "../../components/category/": [
+    {
+      "id": "./src/components/category/index.js",
+      "name": "./src/components/category/index.js",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/category/index.js",
+      "name": "./src/components/category/index.js",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "../../components/contentList": [
+    {
+      "id": "./src/components/contentList/index.js",
+      "name": "./src/components/contentList/index.js",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/contentList/index.js",
+      "name": "./src/components/contentList/index.js",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "../../components/listItem/": [
+    {
+      "id": "./src/components/listItem/index.js",
+      "name": "./src/components/listItem/index.js",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/listItem/index.js",
+      "name": "./src/components/listItem/index.js",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "./img/arrowIcon.png": [
+    {
+      "id": "./src/components/searchBar/img/arrowIcon.png",
+      "name": "./src/components/searchBar/img/arrowIcon.png",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/searchBar/img/arrowIcon.png",
+      "name": "./src/components/searchBar/img/arrowIcon.png",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "./img/locationIcon.png": [
+    {
+      "id": "./src/components/searchBar/img/locationIcon.png",
+      "name": "./src/components/searchBar/img/locationIcon.png",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/searchBar/img/locationIcon.png",
+      "name": "./src/components/searchBar/img/locationIcon.png",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "./img/searchIcon.png": [
+    {
+      "id": "./src/components/searchBar/img/searchIcon.png",
+      "name": "./src/components/searchBar/img/searchIcon.png",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/searchBar/img/searchIcon.png",
+      "name": "./src/components/searchBar/img/searchIcon.png",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "../../../components/searchBar": [
+    {
+      "id": "./src/components/searchBar/index.js",
+      "name": "./src/components/searchBar/index.js",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/searchBar/index.js",
+      "name": "./src/components/searchBar/index.js",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "./img/fullstar.png": [
+    {
+      "id": "./src/components/starScore/img/fullstar.png",
+      "name": "./src/components/starScore/img/fullstar.png",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/starScore/img/fullstar.png",
+      "name": "./src/components/starScore/img/fullstar.png",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "./img/gray-star.png": [
+    {
+      "id": "./src/components/starScore/img/gray-star.png",
+      "name": "./src/components/starScore/img/gray-star.png",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/starScore/img/gray-star.png",
+      "name": "./src/components/starScore/img/gray-star.png",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "./img/halfstar.png": [
+    {
+      "id": "./src/components/starScore/img/halfstar.png",
+      "name": "./src/components/starScore/img/halfstar.png",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/starScore/img/halfstar.png",
+      "name": "./src/components/starScore/img/halfstar.png",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "../../components/starScore/": [
+    {
+      "id": "./src/components/starScore/index.js",
+      "name": "./src/components/starScore/index.js",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/components/starScore/index.js",
+      "name": "./src/components/starScore/index.js",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "./header/": [
+    {
+      "id": "./src/views/Home/header/index.js",
+      "name": "./src/views/Home/header/index.js",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/views/Home/header/index.js",
+      "name": "./src/views/Home/header/index.js",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "../views/Home": [
+    {
+      "id": "./src/views/Home/index.js",
+      "name": "./src/views/Home/index.js",
+      "file": "2.client-bundle.js",
+      "publicPath": "2.client-bundle.js"
+    },
+    {
+      "id": "./src/views/Home/index.js",
+      "name": "./src/views/Home/index.js",
+      "file": "2.client-bundle.js.map",
+      "publicPath": "2.client-bundle.js.map"
+    }
+  ],
+  "classnames": [
+    {
+      "id": "./node_modules/classnames/index.js",
+      "name": "./node_modules/classnames/index.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/classnames/index.js",
+      "name": "./node_modules/classnames/index.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/classnames/index.js",
+      "name": "./node_modules/classnames/index.js",
+      "file": "4.client-bundle.js",
+      "publicPath": "4.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/classnames/index.js",
+      "name": "./node_modules/classnames/index.js",
+      "file": "4.client-bundle.js.map",
+      "publicPath": "4.client-bundle.js.map"
+    }
+  ],
+  "../internals/advance-string-index": [
+    {
+      "id": "./node_modules/core-js/internals/advance-string-index.js",
+      "name": "./node_modules/core-js/internals/advance-string-index.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/advance-string-index.js",
+      "name": "./node_modules/core-js/internals/advance-string-index.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/fix-regexp-well-known-symbol-logic": [
+    {
+      "id": "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js",
+      "name": "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js",
+      "name": "./node_modules/core-js/internals/fix-regexp-well-known-symbol-logic.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/is-regexp": [
+    {
+      "id": "./node_modules/core-js/internals/is-regexp.js",
+      "name": "./node_modules/core-js/internals/is-regexp.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/is-regexp.js",
+      "name": "./node_modules/core-js/internals/is-regexp.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/parse-int": [
+    {
+      "id": "./node_modules/core-js/internals/parse-int.js",
+      "name": "./node_modules/core-js/internals/parse-int.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/parse-int.js",
+      "name": "./node_modules/core-js/internals/parse-int.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/regexp-exec-abstract": [
+    {
+      "id": "./node_modules/core-js/internals/regexp-exec-abstract.js",
+      "name": "./node_modules/core-js/internals/regexp-exec-abstract.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/regexp-exec-abstract.js",
+      "name": "./node_modules/core-js/internals/regexp-exec-abstract.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/regexp-exec": [
+    {
+      "id": "./node_modules/core-js/internals/regexp-exec.js",
+      "name": "./node_modules/core-js/internals/regexp-exec.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/regexp-exec.js",
+      "name": "./node_modules/core-js/internals/regexp-exec.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/regexp-flags": [
+    {
+      "id": "./node_modules/core-js/internals/regexp-flags.js",
+      "name": "./node_modules/core-js/internals/regexp-flags.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/regexp-flags.js",
+      "name": "./node_modules/core-js/internals/regexp-flags.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/string-trim": [
+    {
+      "id": "./node_modules/core-js/internals/string-trim.js",
+      "name": "./node_modules/core-js/internals/string-trim.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/string-trim.js",
+      "name": "./node_modules/core-js/internals/string-trim.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../internals/whitespaces": [
+    {
+      "id": "./node_modules/core-js/internals/whitespaces.js",
+      "name": "./node_modules/core-js/internals/whitespaces.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/whitespaces.js",
+      "name": "./node_modules/core-js/internals/whitespaces.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.array.map": [
+    {
+      "id": "./node_modules/core-js/modules/es.array.map.js",
+      "name": "./node_modules/core-js/modules/es.array.map.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.map.js",
+      "name": "./node_modules/core-js/modules/es.array.map.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.map.js",
+      "name": "./node_modules/core-js/modules/es.array.map.js",
+      "file": "4.client-bundle.js",
+      "publicPath": "4.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.map.js",
+      "name": "./node_modules/core-js/modules/es.array.map.js",
+      "file": "4.client-bundle.js.map",
+      "publicPath": "4.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.array.splice": [
+    {
+      "id": "./node_modules/core-js/modules/es.array.splice.js",
+      "name": "./node_modules/core-js/modules/es.array.splice.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.splice.js",
+      "name": "./node_modules/core-js/modules/es.array.splice.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.date.to-string": [
+    {
+      "id": "./node_modules/core-js/modules/es.date.to-string.js",
+      "name": "./node_modules/core-js/modules/es.date.to-string.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.date.to-string.js",
+      "name": "./node_modules/core-js/modules/es.date.to-string.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.function.name": [
+    {
+      "id": "./node_modules/core-js/modules/es.function.name.js",
+      "name": "./node_modules/core-js/modules/es.function.name.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.function.name.js",
+      "name": "./node_modules/core-js/modules/es.function.name.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.function.name.js",
+      "name": "./node_modules/core-js/modules/es.function.name.js",
+      "file": "4.client-bundle.js",
+      "publicPath": "4.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.function.name.js",
+      "name": "./node_modules/core-js/modules/es.function.name.js",
+      "file": "4.client-bundle.js.map",
+      "publicPath": "4.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.parse-int": [
+    {
+      "id": "./node_modules/core-js/modules/es.parse-int.js",
+      "name": "./node_modules/core-js/modules/es.parse-int.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.parse-int.js",
+      "name": "./node_modules/core-js/modules/es.parse-int.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.regexp.exec": [
+    {
+      "id": "./node_modules/core-js/modules/es.regexp.exec.js",
+      "name": "./node_modules/core-js/modules/es.regexp.exec.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.regexp.exec.js",
+      "name": "./node_modules/core-js/modules/es.regexp.exec.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.regexp.to-string": [
+    {
+      "id": "./node_modules/core-js/modules/es.regexp.to-string.js",
+      "name": "./node_modules/core-js/modules/es.regexp.to-string.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.regexp.to-string.js",
+      "name": "./node_modules/core-js/modules/es.regexp.to-string.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.string.split": [
+    {
+      "id": "./node_modules/core-js/modules/es.string.split.js",
+      "name": "./node_modules/core-js/modules/es.string.split.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.string.split.js",
+      "name": "./node_modules/core-js/modules/es.string.split.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    }
+  ],
+  "../../../node_modules/css-loader/dist/runtime/url-escape.js": [
+    {
+      "id": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "name": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "file": "3.client-bundle.js",
+      "publicPath": "3.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "name": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "file": "3.client-bundle.js.map",
+      "publicPath": "3.client-bundle.js.map"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "name": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "file": "4.client-bundle.js",
+      "publicPath": "4.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "name": "./node_modules/css-loader/dist/runtime/url-escape.js",
+      "file": "4.client-bundle.js.map",
+      "publicPath": "4.client-bundle.js.map"
+    }
+  ],
+  "../views/NotFound": [
+    {
+      "id": "./src/views/NotFound/index.js",
+      "name": "./src/views/NotFound/index.js",
+      "file": "4.client-bundle.js",
+      "publicPath": "4.client-bundle.js"
+    },
+    {
+      "id": "./src/views/NotFound/index.js",
+      "name": "./src/views/NotFound/index.js",
+      "file": "4.client-bundle.js.map",
+      "publicPath": "4.client-bundle.js.map"
+    }
+  ],
+  "!!../../../node_modules/css-loader/dist/cjs.js??ref--7-1!../../../node_modules/sass-loader/lib/loader.js!../../../node_modules/sass-resources-loader/lib/loader.js??ref--7-3!./common.scss": [
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/assets/css/common.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/assets/css/common.scss",
+      "file": "5.client-bundle.js",
+      "publicPath": "5.client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/assets/css/common.scss",
+      "name": "./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/lib/loader.js!./node_modules/sass-resources-loader/lib/loader.js?!./src/assets/css/common.scss",
+      "file": "5.client-bundle.js.map",
+      "publicPath": "5.client-bundle.js.map"
+    }
+  ],
+  "../App": [
+    {
+      "id": "./src/App.js",
+      "name": "./src/App.js",
+      "file": "5.client-bundle.js",
+      "publicPath": "5.client-bundle.js"
+    },
+    {
+      "id": "./src/App.js",
+      "name": "./src/App.js",
+      "file": "5.client-bundle.js.map",
+      "publicPath": "5.client-bundle.js.map"
+    }
+  ],
+  "./assets/css/common.scss": [
+    {
+      "id": "./src/assets/css/common.scss",
+      "name": "./src/assets/css/common.scss",
+      "file": "5.client-bundle.js",
+      "publicPath": "5.client-bundle.js"
+    },
+    {
+      "id": "./src/assets/css/common.scss",
+      "name": "./src/assets/css/common.scss",
+      "file": "5.client-bundle.js.map",
+      "publicPath": "5.client-bundle.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/assertThisInitialized": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/extends": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/inheritsLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/inheritsLoose.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/esm/objectWithoutPropertiesLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@babel/runtime/helpers/inheritsLoose": [
+    {
+      "id": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
+      "name": "./node_modules/@babel/runtime/helpers/inheritsLoose.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./chunk-e922c950.js": [
+    {
+      "id": "./node_modules/@redux-saga/core/dist/chunk-e922c950.js",
+      "name": "./node_modules/@redux-saga/core/dist/chunk-e922c950.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@redux-saga/core/dist/chunk-e922c950.js",
+      "name": "./node_modules/@redux-saga/core/dist/chunk-e922c950.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@redux-saga/core": [
+    {
+      "id": "./node_modules/@redux-saga/core/dist/redux-saga-core.esm.js",
+      "name": "./node_modules/@redux-saga/core/dist/redux-saga-core.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@redux-saga/core/dist/redux-saga-core.esm.js",
+      "name": "./node_modules/@redux-saga/core/dist/redux-saga-core.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@redux-saga/core/effects": [
+    {
+      "id": "./node_modules/@redux-saga/core/dist/redux-saga-effects.esm.js",
+      "name": "./node_modules/@redux-saga/core/dist/redux-saga-effects.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@redux-saga/core/dist/redux-saga-effects.esm.js",
+      "name": "./node_modules/@redux-saga/core/dist/redux-saga-effects.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@redux-saga/deferred": [
+    {
+      "id": "./node_modules/@redux-saga/deferred/dist/redux-saga-deferred.esm.js",
+      "name": "./node_modules/@redux-saga/deferred/dist/redux-saga-deferred.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@redux-saga/deferred/dist/redux-saga-deferred.esm.js",
+      "name": "./node_modules/@redux-saga/deferred/dist/redux-saga-deferred.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@redux-saga/delay-p": [
+    {
+      "id": "./node_modules/@redux-saga/delay-p/dist/redux-saga-delay-p.esm.js",
+      "name": "./node_modules/@redux-saga/delay-p/dist/redux-saga-delay-p.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@redux-saga/delay-p/dist/redux-saga-delay-p.esm.js",
+      "name": "./node_modules/@redux-saga/delay-p/dist/redux-saga-delay-p.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@redux-saga/is": [
+    {
+      "id": "./node_modules/@redux-saga/is/dist/redux-saga-is.esm.js",
+      "name": "./node_modules/@redux-saga/is/dist/redux-saga-is.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@redux-saga/is/dist/redux-saga-is.esm.js",
+      "name": "./node_modules/@redux-saga/is/dist/redux-saga-is.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "@redux-saga/symbols": [
+    {
+      "id": "./node_modules/@redux-saga/symbols/dist/redux-saga-symbols.esm.js",
+      "name": "./node_modules/@redux-saga/symbols/dist/redux-saga-symbols.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/@redux-saga/symbols/dist/redux-saga-symbols.esm.js",
+      "name": "./node_modules/@redux-saga/symbols/dist/redux-saga-symbols.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "axios": [
+    {
+      "id": "./node_modules/axios/index.js",
+      "name": "./node_modules/axios/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/index.js",
+      "name": "./node_modules/axios/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./adapters/xhr": [
+    {
+      "id": "./node_modules/axios/lib/adapters/xhr.js",
+      "name": "./node_modules/axios/lib/adapters/xhr.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/adapters/xhr.js",
+      "name": "./node_modules/axios/lib/adapters/xhr.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./lib/axios": [
+    {
+      "id": "./node_modules/axios/lib/axios.js",
+      "name": "./node_modules/axios/lib/axios.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/axios.js",
+      "name": "./node_modules/axios/lib/axios.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cancel/Cancel": [
+    {
+      "id": "./node_modules/axios/lib/cancel/Cancel.js",
+      "name": "./node_modules/axios/lib/cancel/Cancel.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/cancel/Cancel.js",
+      "name": "./node_modules/axios/lib/cancel/Cancel.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cancel/CancelToken": [
+    {
+      "id": "./node_modules/axios/lib/cancel/CancelToken.js",
+      "name": "./node_modules/axios/lib/cancel/CancelToken.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/cancel/CancelToken.js",
+      "name": "./node_modules/axios/lib/cancel/CancelToken.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cancel/isCancel": [
+    {
+      "id": "./node_modules/axios/lib/cancel/isCancel.js",
+      "name": "./node_modules/axios/lib/cancel/isCancel.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/cancel/isCancel.js",
+      "name": "./node_modules/axios/lib/cancel/isCancel.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./core/Axios": [
+    {
+      "id": "./node_modules/axios/lib/core/Axios.js",
+      "name": "./node_modules/axios/lib/core/Axios.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/Axios.js",
+      "name": "./node_modules/axios/lib/core/Axios.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./InterceptorManager": [
+    {
+      "id": "./node_modules/axios/lib/core/InterceptorManager.js",
+      "name": "./node_modules/axios/lib/core/InterceptorManager.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/InterceptorManager.js",
+      "name": "./node_modules/axios/lib/core/InterceptorManager.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../core/createError": [
+    {
+      "id": "./node_modules/axios/lib/core/createError.js",
+      "name": "./node_modules/axios/lib/core/createError.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/createError.js",
+      "name": "./node_modules/axios/lib/core/createError.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./dispatchRequest": [
+    {
+      "id": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "name": "./node_modules/axios/lib/core/dispatchRequest.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./enhanceError": [
+    {
+      "id": "./node_modules/axios/lib/core/enhanceError.js",
+      "name": "./node_modules/axios/lib/core/enhanceError.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/enhanceError.js",
+      "name": "./node_modules/axios/lib/core/enhanceError.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./core/mergeConfig": [
+    {
+      "id": "./node_modules/axios/lib/core/mergeConfig.js",
+      "name": "./node_modules/axios/lib/core/mergeConfig.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/mergeConfig.js",
+      "name": "./node_modules/axios/lib/core/mergeConfig.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../core/settle": [
+    {
+      "id": "./node_modules/axios/lib/core/settle.js",
+      "name": "./node_modules/axios/lib/core/settle.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/settle.js",
+      "name": "./node_modules/axios/lib/core/settle.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./transformData": [
+    {
+      "id": "./node_modules/axios/lib/core/transformData.js",
+      "name": "./node_modules/axios/lib/core/transformData.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/core/transformData.js",
+      "name": "./node_modules/axios/lib/core/transformData.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./defaults": [
+    {
+      "id": "./node_modules/axios/lib/defaults.js",
+      "name": "./node_modules/axios/lib/defaults.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/defaults.js",
+      "name": "./node_modules/axios/lib/defaults.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./helpers/bind": [
+    {
+      "id": "./node_modules/axios/lib/helpers/bind.js",
+      "name": "./node_modules/axios/lib/helpers/bind.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/bind.js",
+      "name": "./node_modules/axios/lib/helpers/bind.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../helpers/buildURL": [
+    {
+      "id": "./node_modules/axios/lib/helpers/buildURL.js",
+      "name": "./node_modules/axios/lib/helpers/buildURL.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/buildURL.js",
+      "name": "./node_modules/axios/lib/helpers/buildURL.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../helpers/combineURLs": [
+    {
+      "id": "./node_modules/axios/lib/helpers/combineURLs.js",
+      "name": "./node_modules/axios/lib/helpers/combineURLs.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/combineURLs.js",
+      "name": "./node_modules/axios/lib/helpers/combineURLs.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../helpers/cookies": [
+    {
+      "id": "./node_modules/axios/lib/helpers/cookies.js",
+      "name": "./node_modules/axios/lib/helpers/cookies.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/cookies.js",
+      "name": "./node_modules/axios/lib/helpers/cookies.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../helpers/isAbsoluteURL": [
+    {
+      "id": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "name": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "name": "./node_modules/axios/lib/helpers/isAbsoluteURL.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../helpers/isURLSameOrigin": [
+    {
+      "id": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "name": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "name": "./node_modules/axios/lib/helpers/isURLSameOrigin.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./helpers/normalizeHeaderName": [
+    {
+      "id": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "name": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "name": "./node_modules/axios/lib/helpers/normalizeHeaderName.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../helpers/parseHeaders": [
+    {
+      "id": "./node_modules/axios/lib/helpers/parseHeaders.js",
+      "name": "./node_modules/axios/lib/helpers/parseHeaders.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/parseHeaders.js",
+      "name": "./node_modules/axios/lib/helpers/parseHeaders.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./helpers/spread": [
+    {
+      "id": "./node_modules/axios/lib/helpers/spread.js",
+      "name": "./node_modules/axios/lib/helpers/spread.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/helpers/spread.js",
+      "name": "./node_modules/axios/lib/helpers/spread.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./utils": [
+    {
+      "id": "./node_modules/axios/lib/utils.js",
+      "name": "./node_modules/axios/lib/utils.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/axios/lib/utils.js",
+      "name": "./node_modules/axios/lib/utils.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/a-function": [
+    {
+      "id": "./node_modules/core-js/internals/a-function.js",
+      "name": "./node_modules/core-js/internals/a-function.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/a-function.js",
+      "name": "./node_modules/core-js/internals/a-function.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/an-instance": [
+    {
+      "id": "./node_modules/core-js/internals/an-instance.js",
+      "name": "./node_modules/core-js/internals/an-instance.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/an-instance.js",
+      "name": "./node_modules/core-js/internals/an-instance.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/an-object": [
+    {
+      "id": "./node_modules/core-js/internals/an-object.js",
+      "name": "./node_modules/core-js/internals/an-object.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/an-object.js",
+      "name": "./node_modules/core-js/internals/an-object.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/array-for-each": [
+    {
+      "id": "./node_modules/core-js/internals/array-for-each.js",
+      "name": "./node_modules/core-js/internals/array-for-each.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/array-for-each.js",
+      "name": "./node_modules/core-js/internals/array-for-each.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/array-includes": [
+    {
+      "id": "./node_modules/core-js/internals/array-includes.js",
+      "name": "./node_modules/core-js/internals/array-includes.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/array-includes.js",
+      "name": "./node_modules/core-js/internals/array-includes.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/array-iteration": [
+    {
+      "id": "./node_modules/core-js/internals/array-iteration.js",
+      "name": "./node_modules/core-js/internals/array-iteration.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/array-iteration.js",
+      "name": "./node_modules/core-js/internals/array-iteration.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/array-method-has-species-support": [
+    {
+      "id": "./node_modules/core-js/internals/array-method-has-species-support.js",
+      "name": "./node_modules/core-js/internals/array-method-has-species-support.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/array-method-has-species-support.js",
+      "name": "./node_modules/core-js/internals/array-method-has-species-support.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/array-species-create": [
+    {
+      "id": "./node_modules/core-js/internals/array-species-create.js",
+      "name": "./node_modules/core-js/internals/array-species-create.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/array-species-create.js",
+      "name": "./node_modules/core-js/internals/array-species-create.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/bind-context": [
+    {
+      "id": "./node_modules/core-js/internals/bind-context.js",
+      "name": "./node_modules/core-js/internals/bind-context.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/bind-context.js",
+      "name": "./node_modules/core-js/internals/bind-context.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/call-with-safe-iteration-closing": [
+    {
+      "id": "./node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+      "name": "./node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+      "name": "./node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/check-correctness-of-iteration": [
+    {
+      "id": "./node_modules/core-js/internals/check-correctness-of-iteration.js",
+      "name": "./node_modules/core-js/internals/check-correctness-of-iteration.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/check-correctness-of-iteration.js",
+      "name": "./node_modules/core-js/internals/check-correctness-of-iteration.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/classof-raw": [
+    {
+      "id": "./node_modules/core-js/internals/classof-raw.js",
+      "name": "./node_modules/core-js/internals/classof-raw.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/classof-raw.js",
+      "name": "./node_modules/core-js/internals/classof-raw.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/classof": [
+    {
+      "id": "./node_modules/core-js/internals/classof.js",
+      "name": "./node_modules/core-js/internals/classof.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/classof.js",
+      "name": "./node_modules/core-js/internals/classof.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/copy-constructor-properties": [
+    {
+      "id": "./node_modules/core-js/internals/copy-constructor-properties.js",
+      "name": "./node_modules/core-js/internals/copy-constructor-properties.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/copy-constructor-properties.js",
+      "name": "./node_modules/core-js/internals/copy-constructor-properties.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/create-property-descriptor": [
+    {
+      "id": "./node_modules/core-js/internals/create-property-descriptor.js",
+      "name": "./node_modules/core-js/internals/create-property-descriptor.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/create-property-descriptor.js",
+      "name": "./node_modules/core-js/internals/create-property-descriptor.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/create-property": [
+    {
+      "id": "./node_modules/core-js/internals/create-property.js",
+      "name": "./node_modules/core-js/internals/create-property.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/create-property.js",
+      "name": "./node_modules/core-js/internals/create-property.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/define-well-known-symbol": [
+    {
+      "id": "./node_modules/core-js/internals/define-well-known-symbol.js",
+      "name": "./node_modules/core-js/internals/define-well-known-symbol.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/define-well-known-symbol.js",
+      "name": "./node_modules/core-js/internals/define-well-known-symbol.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/descriptors": [
+    {
+      "id": "./node_modules/core-js/internals/descriptors.js",
+      "name": "./node_modules/core-js/internals/descriptors.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/descriptors.js",
+      "name": "./node_modules/core-js/internals/descriptors.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/document-create-element": [
+    {
+      "id": "./node_modules/core-js/internals/document-create-element.js",
+      "name": "./node_modules/core-js/internals/document-create-element.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/document-create-element.js",
+      "name": "./node_modules/core-js/internals/document-create-element.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/dom-iterables": [
+    {
+      "id": "./node_modules/core-js/internals/dom-iterables.js",
+      "name": "./node_modules/core-js/internals/dom-iterables.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/dom-iterables.js",
+      "name": "./node_modules/core-js/internals/dom-iterables.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/enum-bug-keys": [
+    {
+      "id": "./node_modules/core-js/internals/enum-bug-keys.js",
+      "name": "./node_modules/core-js/internals/enum-bug-keys.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/enum-bug-keys.js",
+      "name": "./node_modules/core-js/internals/enum-bug-keys.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/export": [
+    {
+      "id": "./node_modules/core-js/internals/export.js",
+      "name": "./node_modules/core-js/internals/export.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/export.js",
+      "name": "./node_modules/core-js/internals/export.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/fails": [
+    {
+      "id": "./node_modules/core-js/internals/fails.js",
+      "name": "./node_modules/core-js/internals/fails.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/fails.js",
+      "name": "./node_modules/core-js/internals/fails.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/function-to-string": [
+    {
+      "id": "./node_modules/core-js/internals/function-to-string.js",
+      "name": "./node_modules/core-js/internals/function-to-string.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/function-to-string.js",
+      "name": "./node_modules/core-js/internals/function-to-string.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/get-built-in": [
+    {
+      "id": "./node_modules/core-js/internals/get-built-in.js",
+      "name": "./node_modules/core-js/internals/get-built-in.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/get-built-in.js",
+      "name": "./node_modules/core-js/internals/get-built-in.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/get-iterator-method": [
+    {
+      "id": "./node_modules/core-js/internals/get-iterator-method.js",
+      "name": "./node_modules/core-js/internals/get-iterator-method.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/get-iterator-method.js",
+      "name": "./node_modules/core-js/internals/get-iterator-method.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/global": [
+    {
+      "id": "./node_modules/core-js/internals/global.js",
+      "name": "./node_modules/core-js/internals/global.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/global.js",
+      "name": "./node_modules/core-js/internals/global.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/has": [
+    {
+      "id": "./node_modules/core-js/internals/has.js",
+      "name": "./node_modules/core-js/internals/has.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/has.js",
+      "name": "./node_modules/core-js/internals/has.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/hidden-keys": [
+    {
+      "id": "./node_modules/core-js/internals/hidden-keys.js",
+      "name": "./node_modules/core-js/internals/hidden-keys.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/hidden-keys.js",
+      "name": "./node_modules/core-js/internals/hidden-keys.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/hide": [
+    {
+      "id": "./node_modules/core-js/internals/hide.js",
+      "name": "./node_modules/core-js/internals/hide.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/hide.js",
+      "name": "./node_modules/core-js/internals/hide.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/host-report-errors": [
+    {
+      "id": "./node_modules/core-js/internals/host-report-errors.js",
+      "name": "./node_modules/core-js/internals/host-report-errors.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/host-report-errors.js",
+      "name": "./node_modules/core-js/internals/host-report-errors.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/html": [
+    {
+      "id": "./node_modules/core-js/internals/html.js",
+      "name": "./node_modules/core-js/internals/html.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/html.js",
+      "name": "./node_modules/core-js/internals/html.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/ie8-dom-define": [
+    {
+      "id": "./node_modules/core-js/internals/ie8-dom-define.js",
+      "name": "./node_modules/core-js/internals/ie8-dom-define.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/ie8-dom-define.js",
+      "name": "./node_modules/core-js/internals/ie8-dom-define.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/indexed-object": [
+    {
+      "id": "./node_modules/core-js/internals/indexed-object.js",
+      "name": "./node_modules/core-js/internals/indexed-object.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/indexed-object.js",
+      "name": "./node_modules/core-js/internals/indexed-object.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/internal-state": [
+    {
+      "id": "./node_modules/core-js/internals/internal-state.js",
+      "name": "./node_modules/core-js/internals/internal-state.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/internal-state.js",
+      "name": "./node_modules/core-js/internals/internal-state.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/is-array-iterator-method": [
+    {
+      "id": "./node_modules/core-js/internals/is-array-iterator-method.js",
+      "name": "./node_modules/core-js/internals/is-array-iterator-method.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/is-array-iterator-method.js",
+      "name": "./node_modules/core-js/internals/is-array-iterator-method.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/is-array": [
+    {
+      "id": "./node_modules/core-js/internals/is-array.js",
+      "name": "./node_modules/core-js/internals/is-array.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/is-array.js",
+      "name": "./node_modules/core-js/internals/is-array.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/is-forced": [
+    {
+      "id": "./node_modules/core-js/internals/is-forced.js",
+      "name": "./node_modules/core-js/internals/is-forced.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/is-forced.js",
+      "name": "./node_modules/core-js/internals/is-forced.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/is-object": [
+    {
+      "id": "./node_modules/core-js/internals/is-object.js",
+      "name": "./node_modules/core-js/internals/is-object.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/is-object.js",
+      "name": "./node_modules/core-js/internals/is-object.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/is-pure": [
+    {
+      "id": "./node_modules/core-js/internals/is-pure.js",
+      "name": "./node_modules/core-js/internals/is-pure.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/is-pure.js",
+      "name": "./node_modules/core-js/internals/is-pure.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/iterate": [
+    {
+      "id": "./node_modules/core-js/internals/iterate.js",
+      "name": "./node_modules/core-js/internals/iterate.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/iterate.js",
+      "name": "./node_modules/core-js/internals/iterate.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/iterators": [
+    {
+      "id": "./node_modules/core-js/internals/iterators.js",
+      "name": "./node_modules/core-js/internals/iterators.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/iterators.js",
+      "name": "./node_modules/core-js/internals/iterators.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/microtask": [
+    {
+      "id": "./node_modules/core-js/internals/microtask.js",
+      "name": "./node_modules/core-js/internals/microtask.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/microtask.js",
+      "name": "./node_modules/core-js/internals/microtask.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/native-symbol": [
+    {
+      "id": "./node_modules/core-js/internals/native-symbol.js",
+      "name": "./node_modules/core-js/internals/native-symbol.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/native-symbol.js",
+      "name": "./node_modules/core-js/internals/native-symbol.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/native-weak-map": [
+    {
+      "id": "./node_modules/core-js/internals/native-weak-map.js",
+      "name": "./node_modules/core-js/internals/native-weak-map.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/native-weak-map.js",
+      "name": "./node_modules/core-js/internals/native-weak-map.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/new-promise-capability": [
+    {
+      "id": "./node_modules/core-js/internals/new-promise-capability.js",
+      "name": "./node_modules/core-js/internals/new-promise-capability.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/new-promise-capability.js",
+      "name": "./node_modules/core-js/internals/new-promise-capability.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-create": [
+    {
+      "id": "./node_modules/core-js/internals/object-create.js",
+      "name": "./node_modules/core-js/internals/object-create.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-create.js",
+      "name": "./node_modules/core-js/internals/object-create.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-define-properties": [
+    {
+      "id": "./node_modules/core-js/internals/object-define-properties.js",
+      "name": "./node_modules/core-js/internals/object-define-properties.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-define-properties.js",
+      "name": "./node_modules/core-js/internals/object-define-properties.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-define-property": [
+    {
+      "id": "./node_modules/core-js/internals/object-define-property.js",
+      "name": "./node_modules/core-js/internals/object-define-property.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-define-property.js",
+      "name": "./node_modules/core-js/internals/object-define-property.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-get-own-property-descriptor": [
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-descriptor.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-descriptor.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-descriptor.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-descriptor.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-get-own-property-names-external": [
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-names-external.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-names-external.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-names-external.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-names-external.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-get-own-property-names": [
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-names.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-names.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-names.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-names.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-get-own-property-symbols": [
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-symbols.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-symbols.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-get-own-property-symbols.js",
+      "name": "./node_modules/core-js/internals/object-get-own-property-symbols.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-keys-internal": [
+    {
+      "id": "./node_modules/core-js/internals/object-keys-internal.js",
+      "name": "./node_modules/core-js/internals/object-keys-internal.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-keys-internal.js",
+      "name": "./node_modules/core-js/internals/object-keys-internal.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-keys": [
+    {
+      "id": "./node_modules/core-js/internals/object-keys.js",
+      "name": "./node_modules/core-js/internals/object-keys.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-keys.js",
+      "name": "./node_modules/core-js/internals/object-keys.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-property-is-enumerable": [
+    {
+      "id": "./node_modules/core-js/internals/object-property-is-enumerable.js",
+      "name": "./node_modules/core-js/internals/object-property-is-enumerable.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-property-is-enumerable.js",
+      "name": "./node_modules/core-js/internals/object-property-is-enumerable.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/object-to-string": [
+    {
+      "id": "./node_modules/core-js/internals/object-to-string.js",
+      "name": "./node_modules/core-js/internals/object-to-string.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/object-to-string.js",
+      "name": "./node_modules/core-js/internals/object-to-string.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/own-keys": [
+    {
+      "id": "./node_modules/core-js/internals/own-keys.js",
+      "name": "./node_modules/core-js/internals/own-keys.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/own-keys.js",
+      "name": "./node_modules/core-js/internals/own-keys.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/path": [
+    {
+      "id": "./node_modules/core-js/internals/path.js",
+      "name": "./node_modules/core-js/internals/path.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/path.js",
+      "name": "./node_modules/core-js/internals/path.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/perform": [
+    {
+      "id": "./node_modules/core-js/internals/perform.js",
+      "name": "./node_modules/core-js/internals/perform.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/perform.js",
+      "name": "./node_modules/core-js/internals/perform.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/promise-resolve": [
+    {
+      "id": "./node_modules/core-js/internals/promise-resolve.js",
+      "name": "./node_modules/core-js/internals/promise-resolve.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/promise-resolve.js",
+      "name": "./node_modules/core-js/internals/promise-resolve.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/redefine-all": [
+    {
+      "id": "./node_modules/core-js/internals/redefine-all.js",
+      "name": "./node_modules/core-js/internals/redefine-all.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/redefine-all.js",
+      "name": "./node_modules/core-js/internals/redefine-all.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/redefine": [
+    {
+      "id": "./node_modules/core-js/internals/redefine.js",
+      "name": "./node_modules/core-js/internals/redefine.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/redefine.js",
+      "name": "./node_modules/core-js/internals/redefine.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/require-object-coercible": [
+    {
+      "id": "./node_modules/core-js/internals/require-object-coercible.js",
+      "name": "./node_modules/core-js/internals/require-object-coercible.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/require-object-coercible.js",
+      "name": "./node_modules/core-js/internals/require-object-coercible.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/set-global": [
+    {
+      "id": "./node_modules/core-js/internals/set-global.js",
+      "name": "./node_modules/core-js/internals/set-global.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/set-global.js",
+      "name": "./node_modules/core-js/internals/set-global.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/set-species": [
+    {
+      "id": "./node_modules/core-js/internals/set-species.js",
+      "name": "./node_modules/core-js/internals/set-species.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/set-species.js",
+      "name": "./node_modules/core-js/internals/set-species.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/set-to-string-tag": [
+    {
+      "id": "./node_modules/core-js/internals/set-to-string-tag.js",
+      "name": "./node_modules/core-js/internals/set-to-string-tag.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/set-to-string-tag.js",
+      "name": "./node_modules/core-js/internals/set-to-string-tag.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/shared-key": [
+    {
+      "id": "./node_modules/core-js/internals/shared-key.js",
+      "name": "./node_modules/core-js/internals/shared-key.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/shared-key.js",
+      "name": "./node_modules/core-js/internals/shared-key.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/shared": [
+    {
+      "id": "./node_modules/core-js/internals/shared.js",
+      "name": "./node_modules/core-js/internals/shared.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/shared.js",
+      "name": "./node_modules/core-js/internals/shared.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/sloppy-array-method": [
+    {
+      "id": "./node_modules/core-js/internals/sloppy-array-method.js",
+      "name": "./node_modules/core-js/internals/sloppy-array-method.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/sloppy-array-method.js",
+      "name": "./node_modules/core-js/internals/sloppy-array-method.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/species-constructor": [
+    {
+      "id": "./node_modules/core-js/internals/species-constructor.js",
+      "name": "./node_modules/core-js/internals/species-constructor.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/species-constructor.js",
+      "name": "./node_modules/core-js/internals/species-constructor.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/task": [
+    {
+      "id": "./node_modules/core-js/internals/task.js",
+      "name": "./node_modules/core-js/internals/task.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/task.js",
+      "name": "./node_modules/core-js/internals/task.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/to-absolute-index": [
+    {
+      "id": "./node_modules/core-js/internals/to-absolute-index.js",
+      "name": "./node_modules/core-js/internals/to-absolute-index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/to-absolute-index.js",
+      "name": "./node_modules/core-js/internals/to-absolute-index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/to-indexed-object": [
+    {
+      "id": "./node_modules/core-js/internals/to-indexed-object.js",
+      "name": "./node_modules/core-js/internals/to-indexed-object.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/to-indexed-object.js",
+      "name": "./node_modules/core-js/internals/to-indexed-object.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/to-integer": [
+    {
+      "id": "./node_modules/core-js/internals/to-integer.js",
+      "name": "./node_modules/core-js/internals/to-integer.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/to-integer.js",
+      "name": "./node_modules/core-js/internals/to-integer.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/to-length": [
+    {
+      "id": "./node_modules/core-js/internals/to-length.js",
+      "name": "./node_modules/core-js/internals/to-length.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/to-length.js",
+      "name": "./node_modules/core-js/internals/to-length.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/to-object": [
+    {
+      "id": "./node_modules/core-js/internals/to-object.js",
+      "name": "./node_modules/core-js/internals/to-object.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/to-object.js",
+      "name": "./node_modules/core-js/internals/to-object.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/to-primitive": [
+    {
+      "id": "./node_modules/core-js/internals/to-primitive.js",
+      "name": "./node_modules/core-js/internals/to-primitive.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/to-primitive.js",
+      "name": "./node_modules/core-js/internals/to-primitive.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/uid": [
+    {
+      "id": "./node_modules/core-js/internals/uid.js",
+      "name": "./node_modules/core-js/internals/uid.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/uid.js",
+      "name": "./node_modules/core-js/internals/uid.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/user-agent": [
+    {
+      "id": "./node_modules/core-js/internals/user-agent.js",
+      "name": "./node_modules/core-js/internals/user-agent.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/user-agent.js",
+      "name": "./node_modules/core-js/internals/user-agent.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/well-known-symbol": [
+    {
+      "id": "./node_modules/core-js/internals/well-known-symbol.js",
+      "name": "./node_modules/core-js/internals/well-known-symbol.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/well-known-symbol.js",
+      "name": "./node_modules/core-js/internals/well-known-symbol.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../internals/wrapped-well-known-symbol": [
+    {
+      "id": "./node_modules/core-js/internals/wrapped-well-known-symbol.js",
+      "name": "./node_modules/core-js/internals/wrapped-well-known-symbol.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/internals/wrapped-well-known-symbol.js",
+      "name": "./node_modules/core-js/internals/wrapped-well-known-symbol.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.array.concat": [
+    {
+      "id": "./node_modules/core-js/modules/es.array.concat.js",
+      "name": "./node_modules/core-js/modules/es.array.concat.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.concat.js",
+      "name": "./node_modules/core-js/modules/es.array.concat.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.array.filter": [
+    {
+      "id": "./node_modules/core-js/modules/es.array.filter.js",
+      "name": "./node_modules/core-js/modules/es.array.filter.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.filter.js",
+      "name": "./node_modules/core-js/modules/es.array.filter.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.array.for-each": [
+    {
+      "id": "./node_modules/core-js/modules/es.array.for-each.js",
+      "name": "./node_modules/core-js/modules/es.array.for-each.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.array.for-each.js",
+      "name": "./node_modules/core-js/modules/es.array.for-each.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.object.get-own-property-descriptor": [
+    {
+      "id": "./node_modules/core-js/modules/es.object.get-own-property-descriptor.js",
+      "name": "./node_modules/core-js/modules/es.object.get-own-property-descriptor.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.object.get-own-property-descriptor.js",
+      "name": "./node_modules/core-js/modules/es.object.get-own-property-descriptor.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.object.keys": [
+    {
+      "id": "./node_modules/core-js/modules/es.object.keys.js",
+      "name": "./node_modules/core-js/modules/es.object.keys.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.object.keys.js",
+      "name": "./node_modules/core-js/modules/es.object.keys.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.object.to-string": [
+    {
+      "id": "./node_modules/core-js/modules/es.object.to-string.js",
+      "name": "./node_modules/core-js/modules/es.object.to-string.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.object.to-string.js",
+      "name": "./node_modules/core-js/modules/es.object.to-string.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.promise": [
+    {
+      "id": "./node_modules/core-js/modules/es.promise.js",
+      "name": "./node_modules/core-js/modules/es.promise.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.promise.js",
+      "name": "./node_modules/core-js/modules/es.promise.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/es.symbol": [
+    {
+      "id": "./node_modules/core-js/modules/es.symbol.js",
+      "name": "./node_modules/core-js/modules/es.symbol.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/es.symbol.js",
+      "name": "./node_modules/core-js/modules/es.symbol.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "core-js/modules/web.dom-collections.for-each": [
+    {
+      "id": "./node_modules/core-js/modules/web.dom-collections.for-each.js",
+      "name": "./node_modules/core-js/modules/web.dom-collections.for-each.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/core-js/modules/web.dom-collections.for-each.js",
+      "name": "./node_modules/core-js/modules/web.dom-collections.for-each.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../../../node_modules/css-loader/dist/runtime/api.js": [
+    {
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/dist/runtime/api.js",
+      "name": "./node_modules/css-loader/dist/runtime/api.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "gud": [
+    {
+      "id": "./node_modules/gud/index.js",
+      "name": "./node_modules/gud/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/gud/index.js",
+      "name": "./node_modules/gud/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "history": [
+    {
+      "id": "./node_modules/history/esm/history.js",
+      "name": "./node_modules/history/esm/history.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/history/esm/history.js",
+      "name": "./node_modules/history/esm/history.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "invariant": [
+    {
+      "id": "./node_modules/invariant/browser.js",
+      "name": "./node_modules/invariant/browser.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/invariant/browser.js",
+      "name": "./node_modules/invariant/browser.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "is-buffer": [
+    {
+      "id": "./node_modules/is-buffer/index.js",
+      "name": "./node_modules/is-buffer/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/is-buffer/index.js",
+      "name": "./node_modules/is-buffer/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "mini-create-react-context": [
+    {
+      "id": "./node_modules/mini-create-react-context/dist/esm/index.js",
+      "name": "./node_modules/mini-create-react-context/dist/esm/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/mini-create-react-context/dist/esm/index.js",
+      "name": "./node_modules/mini-create-react-context/dist/esm/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "object-assign": [
+    {
+      "id": "./node_modules/object-assign/index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/object-assign/index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../../process/browser.js": [
+    {
+      "id": "./node_modules/process/browser.js",
+      "name": "./node_modules/process/browser.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/process/browser.js",
+      "name": "./node_modules/process/browser.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "prop-types/checkPropTypes": [
+    {
+      "id": "./node_modules/prop-types/checkPropTypes.js",
+      "name": "./node_modules/prop-types/checkPropTypes.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/prop-types/checkPropTypes.js",
+      "name": "./node_modules/prop-types/checkPropTypes.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./factoryWithTypeCheckers": [
+    {
+      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "name": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "prop-types": [
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "name": "./node_modules/prop-types/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./lib/ReactPropTypesSecret": [
+    {
+      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cjs/react-dom.development.js": [
+    {
+      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "name": "./node_modules/react-dom/cjs/react-dom.development.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-dom": [
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-dom/index.js",
+      "name": "./node_modules/react-dom/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cjs/react-is.development.js": [
+    {
+      "id": "./node_modules/react-is/cjs/react-is.development.js",
+      "name": "./node_modules/react-is/cjs/react-is.development.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-is/cjs/react-is.development.js",
+      "name": "./node_modules/react-is/cjs/react-is.development.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-is": [
+    {
+      "id": "./node_modules/react-is/index.js",
+      "name": "./node_modules/react-is/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-is/index.js",
+      "name": "./node_modules/react-is/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-loadable": [
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-loadable/lib/index.js",
+      "name": "./node_modules/react-loadable/lib/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./components/Context": [
+    {
+      "id": "./node_modules/react-redux/es/components/Context.js",
+      "name": "./node_modules/react-redux/es/components/Context.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/components/Context.js",
+      "name": "./node_modules/react-redux/es/components/Context.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./components/Provider": [
+    {
+      "id": "./node_modules/react-redux/es/components/Provider.js",
+      "name": "./node_modules/react-redux/es/components/Provider.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/components/Provider.js",
+      "name": "./node_modules/react-redux/es/components/Provider.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./components/connectAdvanced": [
+    {
+      "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "name": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "name": "./node_modules/react-redux/es/components/connectAdvanced.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./connect/connect": [
+    {
+      "id": "./node_modules/react-redux/es/connect/connect.js",
+      "name": "./node_modules/react-redux/es/connect/connect.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/connect/connect.js",
+      "name": "./node_modules/react-redux/es/connect/connect.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./mapDispatchToProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "name": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "name": "./node_modules/react-redux/es/connect/mapDispatchToProps.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./mapStateToProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+      "name": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+      "name": "./node_modules/react-redux/es/connect/mapStateToProps.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./mergeProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/mergeProps.js",
+      "name": "./node_modules/react-redux/es/connect/mergeProps.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/connect/mergeProps.js",
+      "name": "./node_modules/react-redux/es/connect/mergeProps.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./selectorFactory": [
+    {
+      "id": "./node_modules/react-redux/es/connect/selectorFactory.js",
+      "name": "./node_modules/react-redux/es/connect/selectorFactory.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/connect/selectorFactory.js",
+      "name": "./node_modules/react-redux/es/connect/selectorFactory.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./verifySubselectors": [
+    {
+      "id": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+      "name": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+      "name": "./node_modules/react-redux/es/connect/verifySubselectors.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./wrapMapToProps": [
+    {
+      "id": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "name": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "name": "./node_modules/react-redux/es/connect/wrapMapToProps.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./hooks/useDispatch": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useDispatch.js",
+      "name": "./node_modules/react-redux/es/hooks/useDispatch.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/hooks/useDispatch.js",
+      "name": "./node_modules/react-redux/es/hooks/useDispatch.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./useReduxContext": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useReduxContext.js",
+      "name": "./node_modules/react-redux/es/hooks/useReduxContext.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/hooks/useReduxContext.js",
+      "name": "./node_modules/react-redux/es/hooks/useReduxContext.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./hooks/useSelector": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useSelector.js",
+      "name": "./node_modules/react-redux/es/hooks/useSelector.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/hooks/useSelector.js",
+      "name": "./node_modules/react-redux/es/hooks/useSelector.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./hooks/useStore": [
+    {
+      "id": "./node_modules/react-redux/es/hooks/useStore.js",
+      "name": "./node_modules/react-redux/es/hooks/useStore.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/hooks/useStore.js",
+      "name": "./node_modules/react-redux/es/hooks/useStore.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-redux": [
+    {
+      "id": "./node_modules/react-redux/es/index.js",
+      "name": "./node_modules/react-redux/es/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/index.js",
+      "name": "./node_modules/react-redux/es/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../utils/Subscription": [
+    {
+      "id": "./node_modules/react-redux/es/utils/Subscription.js",
+      "name": "./node_modules/react-redux/es/utils/Subscription.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/Subscription.js",
+      "name": "./node_modules/react-redux/es/utils/Subscription.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./utils/batch": [
+    {
+      "id": "./node_modules/react-redux/es/utils/batch.js",
+      "name": "./node_modules/react-redux/es/utils/batch.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/batch.js",
+      "name": "./node_modules/react-redux/es/utils/batch.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./isPlainObject": [
+    {
+      "id": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/isPlainObject.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./utils/reactBatchedUpdates": [
+    {
+      "id": "./node_modules/react-redux/es/utils/reactBatchedUpdates.js",
+      "name": "./node_modules/react-redux/es/utils/reactBatchedUpdates.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/reactBatchedUpdates.js",
+      "name": "./node_modules/react-redux/es/utils/reactBatchedUpdates.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./utils/shallowEqual": [
+    {
+      "id": "./node_modules/react-redux/es/utils/shallowEqual.js",
+      "name": "./node_modules/react-redux/es/utils/shallowEqual.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/shallowEqual.js",
+      "name": "./node_modules/react-redux/es/utils/shallowEqual.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../utils/verifyPlainObject": [
+    {
+      "id": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "name": "./node_modules/react-redux/es/utils/verifyPlainObject.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./warning": [
+    {
+      "id": "./node_modules/react-redux/es/utils/warning.js",
+      "name": "./node_modules/react-redux/es/utils/warning.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-redux/es/utils/warning.js",
+      "name": "./node_modules/react-redux/es/utils/warning.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-router-config": [
+    {
+      "id": "./node_modules/react-router-config/esm/react-router-config.js",
+      "name": "./node_modules/react-router-config/esm/react-router-config.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router-config/esm/react-router-config.js",
+      "name": "./node_modules/react-router-config/esm/react-router-config.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-router-dom": [
+    {
+      "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "name": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "name": "./node_modules/react-router-dom/esm/react-router-dom.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./actions": [
+    {
+      "id": "./node_modules/react-router-redux/lib/actions.js",
+      "name": "./node_modules/react-router-redux/lib/actions.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router-redux/lib/actions.js",
+      "name": "./node_modules/react-router-redux/lib/actions.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-router-redux": [
+    {
+      "id": "./node_modules/react-router-redux/lib/index.js",
+      "name": "./node_modules/react-router-redux/lib/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router-redux/lib/index.js",
+      "name": "./node_modules/react-router-redux/lib/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./middleware": [
+    {
+      "id": "./node_modules/react-router-redux/lib/middleware.js",
+      "name": "./node_modules/react-router-redux/lib/middleware.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router-redux/lib/middleware.js",
+      "name": "./node_modules/react-router-redux/lib/middleware.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./reducer": [
+    {
+      "id": "./node_modules/react-router-redux/lib/reducer.js",
+      "name": "./node_modules/react-router-redux/lib/reducer.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router-redux/lib/reducer.js",
+      "name": "./node_modules/react-router-redux/lib/reducer.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./sync": [
+    {
+      "id": "./node_modules/react-router-redux/lib/sync.js",
+      "name": "./node_modules/react-router-redux/lib/sync.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router-redux/lib/sync.js",
+      "name": "./node_modules/react-router-redux/lib/sync.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react-router": [
+    {
+      "id": "./node_modules/react-router/esm/react-router.js",
+      "name": "./node_modules/react-router/esm/react-router.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router/esm/react-router.js",
+      "name": "./node_modules/react-router/esm/react-router.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "isarray": [
+    {
+      "id": "./node_modules/react-router/node_modules/isarray/index.js",
+      "name": "./node_modules/react-router/node_modules/isarray/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router/node_modules/isarray/index.js",
+      "name": "./node_modules/react-router/node_modules/isarray/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "path-to-regexp": [
+    {
+      "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "name": "./node_modules/react-router/node_modules/path-to-regexp/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cjs/react.development.js": [
+    {
+      "id": "./node_modules/react/cjs/react.development.js",
+      "name": "./node_modules/react/cjs/react.development.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react/cjs/react.development.js",
+      "name": "./node_modules/react/cjs/react.development.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "react": [
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/react/index.js",
+      "name": "./node_modules/react/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "redux-saga": [
+    {
+      "id": "./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js",
+      "name": "./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js",
+      "name": "./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "redux-saga/effects": [
+    {
+      "id": "./node_modules/redux-saga/dist/redux-saga-effects-npm-proxy.esm.js",
+      "name": "./node_modules/redux-saga/dist/redux-saga-effects-npm-proxy.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/redux-saga/dist/redux-saga-effects-npm-proxy.esm.js",
+      "name": "./node_modules/redux-saga/dist/redux-saga-effects-npm-proxy.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "redux": [
+    {
+      "id": "./node_modules/redux/es/redux.js",
+      "name": "./node_modules/redux/es/redux.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/redux/es/redux.js",
+      "name": "./node_modules/redux/es/redux.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "regenerator-runtime/runtime": [
+    {
+      "id": "./node_modules/regenerator-runtime/runtime.js",
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/regenerator-runtime/runtime.js",
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "resolve-pathname": [
+    {
+      "id": "./node_modules/resolve-pathname/index.js",
+      "name": "./node_modules/resolve-pathname/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/resolve-pathname/index.js",
+      "name": "./node_modules/resolve-pathname/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cjs/scheduler-tracing.development.js": [
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./cjs/scheduler.development.js": [
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "name": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "scheduler": [
+    {
+      "id": "./node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/scheduler/index.js",
+      "name": "./node_modules/scheduler/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "scheduler/tracing": [
+    {
+      "id": "./node_modules/scheduler/tracing.js",
+      "name": "./node_modules/scheduler/tracing.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/scheduler/tracing.js",
+      "name": "./node_modules/scheduler/tracing.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "!../../../node_modules/style-loader/lib/addStyles.js": [
+    {
+      "id": "./node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/addStyles.js",
+      "name": "./node_modules/style-loader/lib/addStyles.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./urls": [
+    {
+      "id": "./node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/style-loader/lib/urls.js",
+      "name": "./node_modules/style-loader/lib/urls.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "symbol-observable": [
+    {
+      "id": "./node_modules/symbol-observable/es/index.js",
+      "name": "./node_modules/symbol-observable/es/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/symbol-observable/es/index.js",
+      "name": "./node_modules/symbol-observable/es/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./ponyfill.js": [
+    {
+      "id": "./node_modules/symbol-observable/es/ponyfill.js",
+      "name": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/symbol-observable/es/ponyfill.js",
+      "name": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "tiny-invariant": [
+    {
+      "id": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+      "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+      "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "tiny-warning": [
+    {
+      "id": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
+      "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
+      "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "value-equal": [
+    {
+      "id": "./node_modules/value-equal/index.js",
+      "name": "./node_modules/value-equal/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/value-equal/index.js",
+      "name": "./node_modules/value-equal/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../../webpack/buildin/global.js": [
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./../../webpack/buildin/harmony-module.js": [
+    {
+      "id": "./node_modules/webpack/buildin/harmony-module.js",
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/harmony-module.js",
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../components/loading": [
+    {
+      "id": "./src/components/loading/index.js",
+      "name": "./src/components/loading/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/components/loading/index.js",
+      "name": "./src/components/loading/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "/Users/wangqi/myself/react-ssr/src/entry-client/index.js": [
+    {
+      "id": "./src/entry-client/index.js",
+      "name": "./src/entry-client/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/entry-client/index.js",
+      "name": "./src/entry-client/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../conf": [
+    {
+      "id": "./src/public/conf.js",
+      "name": "./src/public/conf.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/public/conf.js",
+      "name": "./src/public/conf.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../../public/utils/api": [
+    {
+      "id": "./src/public/utils/api.js",
+      "name": "./src/public/utils/api.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/public/utils/api.js",
+      "name": "./src/public/utils/api.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../router": [
+    {
+      "id": "./src/router/index.js",
+      "name": "./src/router/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/router/index.js",
+      "name": "./src/router/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../actionTypes": [
+    {
+      "id": "./src/store/actionTypes.js",
+      "name": "./src/store/actionTypes.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/actionTypes.js",
+      "name": "./src/store/actionTypes.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./api": [
+    {
+      "id": "./src/store/global/api.js",
+      "name": "./src/store/global/api.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/home/api.js",
+      "name": "./src/store/home/api.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/global/api.js",
+      "name": "./src/store/global/api.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    },
+    {
+      "id": "./src/store/home/api.js",
+      "name": "./src/store/home/api.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./global/reducers": [
+    {
+      "id": "./src/store/global/reducers.js",
+      "name": "./src/store/global/reducers.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/global/reducers.js",
+      "name": "./src/store/global/reducers.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./global/sagas": [
+    {
+      "id": "./src/store/global/sagas.js",
+      "name": "./src/store/global/sagas.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/global/sagas.js",
+      "name": "./src/store/global/sagas.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./home/aTypes": [
+    {
+      "id": "./src/store/home/aTypes.js",
+      "name": "./src/store/home/aTypes.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/home/aTypes.js",
+      "name": "./src/store/home/aTypes.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./home/reducers": [
+    {
+      "id": "./src/store/home/reducers.js",
+      "name": "./src/store/home/reducers.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/home/reducers.js",
+      "name": "./src/store/home/reducers.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./home/sagas": [
+    {
+      "id": "./src/store/home/sagas.js",
+      "name": "./src/store/home/sagas.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/home/sagas.js",
+      "name": "./src/store/home/sagas.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../store/index": [
+    {
+      "id": "./src/store/index.js",
+      "name": "./src/store/index.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/index.js",
+      "name": "./src/store/index.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../lib": [
+    {
+      "id": "./src/store/lib.js",
+      "name": "./src/store/lib.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/lib.js",
+      "name": "./src/store/lib.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "./rootReducers": [
+    {
+      "id": "./src/store/rootReducers.js",
+      "name": "./src/store/rootReducers.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/rootReducers.js",
+      "name": "./src/store/rootReducers.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ],
+  "../store/rootSagas": [
+    {
+      "id": "./src/store/rootSagas.js",
+      "name": "./src/store/rootSagas.js",
+      "file": "client-bundle.js",
+      "publicPath": "client-bundle.js"
+    },
+    {
+      "id": "./src/store/rootSagas.js",
+      "name": "./src/store/rootSagas.js",
+      "file": "client-bundle.js.map",
+      "publicPath": "client-bundle.js.map"
+    }
+  ]
+}

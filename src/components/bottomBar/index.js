@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { withRouter } from 'react-router-dom'
 import classnames from 'classnames'
+import { Link } from 'react-router-dom'
 import InjectionStyle from '../../components-hoc/injectionStyle'
 import styles from './index.scss'
 
@@ -24,8 +25,10 @@ class BottomBar extends Component {
 
       return (
         <div key={index} className={cls}>
-          <div className={styles['tab-icon']} />
-          <div className={styles['btn-name']}>{name}</div>
+          <Link to="/222">
+            <div className={styles['tab-icon']} />
+            <div className={styles['btn-name']}>{name}</div>
+          </Link>
         </div>
       )
     })
