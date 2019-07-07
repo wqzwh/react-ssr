@@ -5,18 +5,23 @@ import { Provider } from 'react-redux'
 import { renderRoutes } from 'react-router-config'
 import { Helmet } from 'react-helmet'
 import minify from 'html-minifier'
+import Loadable from 'react-loadable'
+import { getBundles } from 'react-loadable/webpack'
+import stats from '../../dist/react-loadable.json'
 
 export const renderContent = (req, store, routes, context) => {
+  let modules = []
   const content = renderToString(
     <Provider store={store}>
       <StaticRouter location={req.path} context={context}>
-        <Fragment>{renderRoutes(routes)}</Fragment>
+        <Loadable.Capture report={moduleName => modules.push(moduleName)}>
+          <Fragment>{renderRoutes(routes)}</Fragment>
+        </Loadable.Capture>
       </StaticRouter>
     </Provider>
   )
-
+  let bundles = getBundles(stats, modules)
   const helmet = Helmet.renderStatic()
-
   const cssStr = context.css.length ? context.css.join('\n') : ''
   const minifyStr = minify.minify(
     `
@@ -37,6 +42,11 @@ export const renderContent = (req, store, routes, context) => {
             state: ${JSON.stringify(store.getState())}
           }
         </script>
+        ${bundles
+          .map(bundle => {
+            return `<script src="/${bundle.file}"></script>`
+          })
+          .join('\n')}
         <script src='/client-bundle.js'></script>
       </body>
     </html>

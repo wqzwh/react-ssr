@@ -3,6 +3,9 @@ const merge = require('webpack-merge')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const baseConfig = require('./webpack.base.config')
 const config = require('../config')
+const reactLoadablePlugin = require('react-loadable/webpack')
+
+const { ReactLoadablePlugin } = reactLoadablePlugin
 
 const env = process.env.NODE_ENV
 const resolve = dir => {
@@ -11,7 +14,7 @@ const resolve = dir => {
 
 const clientConfig = {
   mode: 'development',
-  devtool: env === 'development' ? config.dev.devtool : config.build.devtool,
+  devtool: env === 'dev' ? config.dev.devtool : config.build.devtool,
   entry: `${resolve('src/entry-client')}/index.js`,
   output: {
     filename: 'client-bundle.js',
@@ -50,7 +53,10 @@ const clientConfig = {
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+    new ReactLoadablePlugin({
+      filename: resolve('dist') + '/react-loadable.json'
+    })
   ]
 }
 

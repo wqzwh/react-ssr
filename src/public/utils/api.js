@@ -17,7 +17,6 @@ const configData = (type, params) => {
 }
 
 function isMock(mock) {
-  if (process.env.NODE_ENV === 'production') return false
   if (mock) return true
   return false
 }

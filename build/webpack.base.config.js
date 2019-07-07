@@ -1,5 +1,8 @@
 const path = require('path')
+// const reactLoadablePlugin = require('react-loadable/webpack')
 const config = require('../config')
+
+// const { ReactLoadablePlugin } = reactLoadablePlugin
 
 const resolve = dir => {
   return path.join(__dirname, '..', dir)
@@ -25,9 +28,7 @@ module.exports = {
   },
   module: {
     rules: [
-      ...(env === 'development' && config.dev.useEslint
-        ? [createLintingRule()]
-        : []),
+      ...(env === 'dev' && config.dev.useEslint ? [createLintingRule()] : []),
       {
         test: /\.js?$/,
         loader: 'babel-loader',
@@ -50,5 +51,10 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    // new ReactLoadablePlugin({
+    //   filename: resolve('dist') + '/react-loadable.json'
+    // })
+  ]
 }

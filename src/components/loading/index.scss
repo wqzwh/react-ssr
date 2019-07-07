@@ -1,0 +1,18 @@
+.ske {
+  height: 100vh;
+  background: #fff;
+  position: relative;
+  text-align: center;
+}
+
+.spinning {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 37vh;
+}
+
+.loading-text {
+  color: #666;
+  margin-top: 10px;
+}
