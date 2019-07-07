@@ -5,6 +5,7 @@ import BottomBar from '../../components/bottomBar/'
 import Header from './header/'
 import Category from '../../components/category/'
 import ContentList from '../../components/contentList'
+// 如果不用react-loadable 在此导入saga方法，否则移入路由配置文件
 // import { getInitData } from '../../store/home/sagas'
 
 class Home extends Component {
@@ -41,6 +42,7 @@ const ExportHome = connect(
   mapDispatchToProps
 )(Home)
 
+// 如果不用react-loadable 在此定义loadData方法，否则移入路由配置文件
 // ExportHome.loadData = serverConfig => {
 //   const params = {
 //     page: 1

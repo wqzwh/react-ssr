@@ -48,6 +48,12 @@ componentDidMount() {
 
 <img src="https://github.com/wqzwh/react-ssr/blob/master/react-ssr-components.png" width="700" />
 
+### react-loadable 配置说明
+
+主要步骤按照官方提供的方案配置即可，详细请[参看](https://github.com/jamiebuilds/react-loadable)
+
+但是按照官方步骤配置最后会出现一个问题，就是给组件定义的`loadData`发现是`undefined`，最后发现是因为组件被`Loadable`包裹重新定义导出，导致之前在组件内部定义的`loadData`不存在，所以在`src/entry-server/index.js`中的`item.route.loadData`不存在，因此在初始化渲染的过程中，服务器无法直接先获取数据再以`html`形式导出，于是将自定义`loadData`放在了路由配置文件中，保证在路由挂载组件的时候`loadData`方法的存在，目前还没想到更好的方法来定义`loadData`。
+
 ### 最终效果图
 
 页面项目来自[meituan-webapp](https://github.com/wqzwh/meituan-webapp)(采用`Hybrid`技术实现)
