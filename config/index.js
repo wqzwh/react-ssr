@@ -5,7 +5,7 @@ module.exports = {
   },
   dev: {
     assetsSubDirectory: 'static',
-    useEslint: true,
+    useEslint: false,
     devtool: 'cheap-module-eval-source-map'
   }
 }

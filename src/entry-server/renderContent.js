@@ -14,11 +14,9 @@ export const renderContent = (req, store, routes, context) => {
   const content = renderToString(
     <Provider store={store}>
       <StaticRouter location={req.path} context={context}>
-        <Fragment>
-          <Loadable.Capture report={moduleName => modules.push(moduleName)}>
-            {renderRoutes(routes)}
-          </Loadable.Capture>
-        </Fragment>
+        <Loadable.Capture report={moduleName => modules.push(moduleName)}>
+          <Fragment>{renderRoutes(routes)}</Fragment>
+        </Loadable.Capture>
       </StaticRouter>
     </Provider>
   )

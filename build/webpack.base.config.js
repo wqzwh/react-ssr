@@ -28,9 +28,7 @@ module.exports = {
   },
   module: {
     rules: [
-      ...(env === 'development' && config.dev.useEslint
-        ? [createLintingRule()]
-        : []),
+      ...(env === 'dev' && config.dev.useEslint ? [createLintingRule()] : []),
       {
         test: /\.js?$/,
         loader: 'babel-loader',

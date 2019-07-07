@@ -2,6 +2,7 @@ import express from 'express'
 import proxy from 'express-http-proxy'
 import { matchRoutes } from 'react-router-config'
 import { all } from 'redux-saga/effects'
+import Loadable from 'react-loadable'
 import { renderContent } from './renderContent'
 import { configureStore } from '../store/'
 import routes from '../router'
@@ -57,5 +58,8 @@ app.get('*', (req, res) => {
       }
     })
 })
-
-app.listen(8000)
+Loadable.preloadAll().then(() => {
+  app.listen(8000, () => {
+    console.log('8000启动')
+  })
+})

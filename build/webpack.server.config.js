@@ -2,14 +2,13 @@ const path = require('path')
 const nodeExternals = require('webpack-node-externals')
 const merge = require('webpack-merge')
 const baseConfig = require('./webpack.base.config')
-const config = require('../config')
 
 const resolve = dir => {
   return path.join(__dirname, '..', dir)
 }
 
 const serverConfig = {
-  mode: 'development',
+  mode: 'production',
   target: 'node',
   entry: `${resolve('src/entry-server')}/index.js`,
   output: {

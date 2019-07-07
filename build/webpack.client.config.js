@@ -14,7 +14,7 @@ const resolve = dir => {
 
 const clientConfig = {
   mode: 'development',
-  devtool: env === 'development' ? config.dev.devtool : config.build.devtool,
+  devtool: env === 'dev' ? config.dev.devtool : config.build.devtool,
   entry: `${resolve('src/entry-client')}/index.js`,
   output: {
     filename: 'client-bundle.js',

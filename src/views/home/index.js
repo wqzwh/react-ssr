@@ -5,7 +5,7 @@ import BottomBar from '../../components/bottomBar/'
 import Header from './header/'
 import Category from '../../components/category/'
 import ContentList from '../../components/contentList'
-import { getInitData } from '../../store/home/sagas'
+// import { getInitData } from '../../store/home/sagas'
 
 class Home extends Component {
   constructor(props) {
@@ -41,11 +41,11 @@ const ExportHome = connect(
   mapDispatchToProps
 )(Home)
 
-ExportHome.loadData = serverConfig => {
-  const params = {
-    page: 1
-  }
-  return getInitData(serverConfig, params)
-}
+// ExportHome.loadData = serverConfig => {
+//   const params = {
+//     page: 1
+//   }
+//   return getInitData(serverConfig, params)
+// }
 
 export default ExportHome
