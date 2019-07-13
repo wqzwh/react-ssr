@@ -23,4 +23,3 @@ const App = () => {
 Loadable.preloadReady().then(() => {
   ReactDom.hydrate(<App />, document.getElementById('root'))
 })
-// ReactDom.hydrate(<App />, document.getElementById('root'))

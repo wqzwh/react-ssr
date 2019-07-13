@@ -12,7 +12,7 @@ export const configureClientStore = () => {
   }
 }
 
-export const configureStore = () => {
+export const configureServerStore = () => {
   return {
     ...createStore(reducers, applyMiddleware(sagaMiddleware)),
     runSaga: sagaMiddleware.run

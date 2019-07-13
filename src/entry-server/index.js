@@ -4,7 +4,7 @@ import { matchRoutes } from 'react-router-config'
 import { all } from 'redux-saga/effects'
 import Loadable from 'react-loadable'
 import { renderContent } from './renderContent'
-import { configureStore } from '../store/'
+import { configureServerStore } from '../store/'
 import routes from '../router'
 import C from '../public/conf'
 
@@ -22,7 +22,7 @@ app.use(
 )
 
 app.get('*', (req, res) => {
-  const store = configureStore()
+  const store = configureServerStore()
 
   // 向store里面填充数据
   // 需要根据不同的路由，填充不同的store数据

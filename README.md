@@ -31,6 +31,12 @@
     └── views // 不同页面文件夹
 ```
 
+### 运行命令
+
+```
+npm run dev
+```
+
 ### 数据主流程
 
 页面组成基本如下图，APP 组件是入口文件，通过路由分析跳转 Home 组件，Home 组件包含 4 个子组件，这里主要介绍 Category 组件和 ContentList 组件的数据获取逻辑，页面服务端渲染通过 Home 组件 定义 loadData 去触发 getInitData 函数，然后初始化 getList 和 getCategory 函数，更新 state 定义的 items 和 list，存储到 window.state 变量上，然后 Category 和 ContentList 组件根据 state 定义的数据进行展示。

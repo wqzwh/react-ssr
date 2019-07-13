@@ -1,8 +1,5 @@
 const path = require('path')
-// const reactLoadablePlugin = require('react-loadable/webpack')
 const config = require('../config')
-
-// const { ReactLoadablePlugin } = reactLoadablePlugin
 
 const resolve = dir => {
   return path.join(__dirname, '..', dir)
@@ -52,9 +49,5 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    // new ReactLoadablePlugin({
-    //   filename: resolve('dist') + '/react-loadable.json'
-    // })
-  ]
+  plugins: []
 }
