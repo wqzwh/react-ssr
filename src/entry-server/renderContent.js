@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet'
 import minify from 'html-minifier'
 import Loadable from 'react-loadable'
 import { getBundles } from 'react-loadable/webpack'
-import stats from '../../dist/react-loadable.json'
+import stats from '../../build-client/react-loadable.json'
 
 export const renderContent = (req, store, routes, context) => {
   let modules = []
@@ -31,6 +31,7 @@ export const renderContent = (req, store, routes, context) => {
         ${helmet.title.toString()}
         ${helmet.meta.toString()}
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+        <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
         <link href="/static/css/reset.css" rel="stylesheet" />
         <script src="/static/js/rem.js"></script>
         <style>${cssStr}</style>

@@ -55,7 +55,7 @@ const clientConfig = {
       }
     ]),
     new ReactLoadablePlugin({
-      filename: resolve('dist') + '/react-loadable.json'
+      filename: resolve('build-client') + '/react-loadable.json'
     })
   ]
 }
