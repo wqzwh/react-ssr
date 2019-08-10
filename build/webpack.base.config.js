@@ -23,6 +23,12 @@ module.exports = {
   resolve: {
     extensions: ['.js']
   },
+  watch: true,
+  watchOptions: {
+    ignored: /node_modules/,
+    aggregateTimeout: 600, // 防止重复按键
+    poll: 1000 // 每秒检查一次变动
+  },
   module: {
     rules: [
       ...(env === 'dev' && config.dev.useEslint ? [createLintingRule()] : []),

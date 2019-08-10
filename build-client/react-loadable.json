@@ -239,7 +239,7 @@
       "publicPath": "1.client-bundle.js"
     }
   ],
-  "../../components/bottomBar/": [
+  "../../components/bottomBar": [
     {
       "id": "./src/components/bottomBar/index.js",
       "name": "./src/components/bottomBar/index.js",
