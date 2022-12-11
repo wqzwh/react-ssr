@@ -33,7 +33,7 @@
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.1",
     "eslint-friendly-formatter": "^4.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-http-proxy": "^1.5.1",
     "html-minifier": "^4.0.0",
     "isomorphic-style-loader": "^5.1.0",
